@@ -1,6 +1,6 @@
-# Icon Library
+# hugoalh's Icon Library
 
-<b>Identity: </b>hugoalh.iconlibrary
+<b>Identifier: </b>hugoalh.Library.Icon
 
 <b>Author: </b>hugoalh
 
