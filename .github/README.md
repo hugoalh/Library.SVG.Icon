@@ -1,9 +1,9 @@
-# hugoalh's Icon Library
+# hugoalh's SVG Library
 
-<b>Identifier: </b>hugoalh.Library.Icon
+<b>Identifier: </b>hugoalh.Library.SVG
 
 <b>Author: </b>hugoalh
 
 ## 📜 Description
 
-An icon's library.
+An SVG library.
