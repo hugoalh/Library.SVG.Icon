@@ -6,4 +6,4 @@
 
 ## 📜 Description
 
-An SVG library.
+A SVG library.
