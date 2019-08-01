@@ -1,6 +1,6 @@
-# hugoalh's SVG Library
+# SVG Library
 
-<b>Identifier: </b>hugoalh.Library.SVG
+<b>Identifier: </b>hugoalh/Library.SVG
 
 <b>Author: </b>hugoalh
 
