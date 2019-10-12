@@ -5,7 +5,7 @@
 <div align="right">
 	<strong>Version: </strong>1.0<br />
 	<strong>Last Update: </strong>2019-10-12 08:00 UTC<br />
-  <strong>Source: </strong><a href="https://creativecommons.org/publicdomain/zero/1.0/legalcode">Creative Commons</a>
+	<strong>Source: </strong><a href="https://creativecommons.org/publicdomain/zero/1.0/legalcode">Creative Commons</a>
 </div>
 
 ## Quick Read

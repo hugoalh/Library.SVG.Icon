@@ -5,7 +5,7 @@
 <div align="right">
 	<strong>版本：</strong>1.0<br />
 	<strong>最後更新：</strong>2019-10-12 08:00 UTC<br />
-  <strong>來源：</strong><a href="https://creativecommons.org/publicdomain/zero/1.0/legalcode">Creative Commons</a>
+	<strong>來源：</strong><a href="https://creativecommons.org/publicdomain/zero/1.0/legalcode.zh-Hant">Creative Commons</a>
 </div>
 
 ## 快速閱讀
