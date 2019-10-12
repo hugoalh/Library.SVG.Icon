@@ -12,7 +12,40 @@
 
 This is a short and simple table that mostly concluded this license about the permission(s), condition(s), and limitation(s). The section of "Full Content" shall prevail.
 
-{License_QuickRead_Table}
+<table>
+	<tr>
+		<td align="center"><strong>Commercial use</strong></td>
+		<td align="center">✔</td>
+	</tr>
+	<tr>
+		<td align="center"><strong>Distribution</strong></td>
+		<td align="center">✔</td>
+	</tr>
+	<tr>
+		<td align="center"><strong>Modification</strong></td>
+		<td align="center">✔</td>
+	</tr>
+	<tr>
+		<td align="center"><strong>Private use</strong></td>
+		<td align="center">✔</td>
+	</tr>
+	<tr>
+		<td align="center"><strong>Liability</strong></td>
+		<td align="center">❌</td>
+	</tr>
+	<tr>
+		<td align="center"><strong>Trademark use</strong></td>
+		<td align="center">❌</td>
+	</tr>
+	<tr>
+		<td align="center"><strong>Patent use</strong></td>
+		<td align="center">❌</td>
+	</tr>
+	<tr>
+		<td align="center"><strong>Warranty</strong></td>
+		<td align="center">❌</td>
+	</tr>
+</table>
 
 ## Full Content
 
