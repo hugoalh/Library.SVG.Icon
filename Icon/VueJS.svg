@@ -1,4 +1,5 @@
-<svg version="1.1" id="master" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
-<path d="M17.998,3.342L18,3.337h-3.688L12,7.336v0.001l-2.31-4H6.003v0.005H2l10,17.321L22,3.342"/>
+<svg version="1.1" id="master" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+<path d="M17.933,3.436H14.5L12,7.391L9.857,3.436H2l10,17.129L22,3.436H17.933z M4.486,4.864h2.402L12,13.712l5.107-8.848h2.402
+	L12,17.73L4.486,4.864z"/>
 </svg>
