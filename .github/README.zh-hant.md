@@ -17,7 +17,7 @@
   <tr>
     <td align="center"><strong>授權</strong></td>
     <td>
-      <a href="https://github.com/hugoalh/Library.SVG/blob/master/LICENSE.md">CC0 1.0</a>
+      <a href="https://github.com/hugoalh/Library.SVG/blob/master/LICENSE.zh-hant.md">CC0 1.0</a>
     </td>
   </tr>
 </table>
