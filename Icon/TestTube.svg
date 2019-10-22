@@ -1,5 +1,6 @@
-<svg version="1.1" id="master" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-	 x="0px" y="0px" width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+<svg version="1.1" id="master" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+<rect fill="none" width="24" height="24"/>
 <path d="M21.903,9.09l-7.009-6.992c-0.129-0.129-0.342-0.129-0.471,0L13.007,3.51c-0.129,0.129-0.129,0.342,0,0.471l0.467,0.463
 	l-10.1,10.079c-1.617,1.613-1.88,4.25-0.392,5.979c0.858,1,2.063,1.5,3.267,1.496c1.1,0,2.2-0.417,3.038-1.255l10.263-10.237
 	l0.466,0.462c0.13,0.129,0.343,0.129,0.472,0l1.417-1.412C22.032,9.432,22.032,9.219,21.903,9.09z M15.249,12.002H8.707l6.167-6.154
