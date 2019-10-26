@@ -1,8 +1,8 @@
 # <div align="center">SVG Icon Library - Quick View</div>
 
 <div align="right">
-	<strong>Last Update: </strong>2019-10-26 10:00 UTC<br />
-	<i>This may take a while to load completely.</i>
+	<strong>Last Update: </strong>2019-10-26 10:25 UTC<br />
+	<i>This may take a while to load completely!</i>
 </div>
 
 ## General
