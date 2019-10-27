@@ -1,9 +1,12 @@
 # <div align="center">SVG Icon Library - Quick View</div>
 
 <div align="right">
-	<strong>Last Update: </strong>2019-10-26 10:25 UTC<br />
-	<i>This may take a while to load completely!</i>
+	<strong>Last Update: </strong>2019-10-27 05:00 UTC<br />
 </div>
+
+<strong>Note:</strong>
+- This may take a while to load completely!
+- Some of the SVG icon are not rendered here.
 
 ## General
 
