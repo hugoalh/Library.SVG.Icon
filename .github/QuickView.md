@@ -1,7 +1,7 @@
 # <div align="center">SVG Icon Library - Quick View</div>
 
 <div align="right">
-	<strong>Last Update: </strong>2019-10-27 10:16 UTC<br />
+	<strong>Last Update: </strong>2019-10-28 04:00 UTC<br />
 </div>
 
 <strong>Note:</strong>
@@ -12,7 +12,7 @@
 
 ### A
 
-<img src="../Abacus.svg" /> <img src="../Accessibility.svg" /> <img src="../Account.svg" /> <img src="../Acorn.svg" /> <img src="../Add.svg" /> <img src="../AdobeAcrobat.svg" /> <img src="../AdobeInc.svg" /> <img src="../Airbnb.svg" /> <img src="../Airplane.svg" /> <img src="../AirPlay.svg" /> <img src="../AirportShuttleBus.svg" /> <img src="../Alarm.svg" /> <img src="../Alarm_Add.svg" /> <img src="../Alarm_Off.svg" /> <img src="../Alarm_On.svg" /> <img src="../Alien.svg" /> <img src="../Alien_Alt.svg" /> <img src="../AlienMonster.svg" /> <img src="../Amazon.svg" /> <img src="../Ambulance.svg" /> <img src="../AMD.svg" /> <img src="../Analytics.svg" /> <img src="../Anchor.svg" /> <img src="../Anger.svg" /> <img src="../AngularJS.svg" /> <img src="../Announcement.svg" /> <img src="../Apartment.svg" /> <img src="../Apple.svg" /> <img src="../AppleInc.svg" /> <img src="../Applications.svg" /> <img src="../Archive.svg" /> <img src="../Archway.svg" /> <img src="../Arduino.svg" /> <img src="../Assignment.svg" /> <img src="../Astronaut.svg" /> <img src="../AthleticShoe.svg" /> <img src="../Atom.svg" /> <img src="../Award.svg" /> <img src="../Axe.svg" />
+<img src="../Abacus.svg" /> <img src="../Accessibility.svg" /> <img src="../Account.svg" /> <img src="../Acorn.svg" /> <img src="../Add.svg" /> <img src="../AdobeAcrobat.svg" /> <img src="../AdobeInc.svg" /> <img src="../Airbnb.svg" /> <img src="../Airplane.svg" /> <img src="../AirPlay.svg" /> <img src="../AirportShuttleBus.svg" /> <img src="../Alarm.svg" /> <img src="../Alarm_Add.svg" /> <img src="../Alarm_Off.svg" /> <img src="../Alarm_On.svg" /> <img src="../Alien.svg" /> <img src="../Alien_Alt.svg" /> <img src="../AlienMonster.svg" /> <img src="../Amazon.svg" /> <img src="../Ambulance.svg" /> <img src="../AMD.svg" /> <img src="../Analytics.svg" /> <img src="../Anchor.svg" /> <img src="../Anger.svg" /> <img src="../AngularJS.svg" /> <img src="../Announcement.svg" /> <img src="../Apartment.svg" /> <img src="../Apple.svg" /> <img src="../AppleInc.svg" /> <img src="../Applications.svg" /> <img src="../Applications_Alt.svg" /> <img src="../Archive.svg" /> <img src="../Archway.svg" /> <img src="../Arduino.svg" /> <img src="../Assignment.svg" /> <img src="../Astronaut.svg" /> <img src="../AthleticShoe.svg" /> <img src="../Atom.svg" /> <img src="../Award.svg" /> <img src="../Axe.svg" />
 
 ### B
 
@@ -44,7 +44,7 @@
 
 ### I
 
-<img src="../Icecream.svg" /> <img src="../IDBadge.svg" /> <img src="../IDCard.svg" /> <img src="../Igloo.svg" /> <img src="../Image.svg" /> <img src="../Inbox.svg" /> <img src="../Incandescent.svg" /> <img src="../Indent_Decrease.svg" /> <img src="../Indent_Increase.svg" /> <img src="../Industry.svg" /> <img src="../Information.svg" /> <img src="../Information_Outline.svg" /> <img src="../Inkscape.svg" /> <img src="../Instagram.svg" /> <img src="../Intel.svg" /> <img src="../iPad.svg" /> <img src="../Iridescent.svg" /> <img src="../Italic.svg" />
+<img src="../Icecream.svg" /> <img src="../IDBadge.svg" /> <img src="../IDCard.svg" /> <img src="../Igloo.svg" /> <img src="../Image.svg" /> <img src="../Inbox.svg" /> <img src="../Incandescent.svg" /> <img src="../Indent_Decrease.svg" /> <img src="../Indent_Increase.svg" /> <img src="../Industry.svg" /> <img src="../Information.svg" /> <img src="../Information_Outline.svg" /> <img src="../Inkscape.svg" /> <img src="../Instagram.svg" /> <img src="../Instagram_Alt.svg" /> <img src="../Intel.svg" /> <img src="../iPad.svg" /> <img src="../Iridescent.svg" /> <img src="../Italic.svg" />
 
 ### J - K
 
@@ -52,7 +52,7 @@
 
 ### L
 
-<img src="../Label.svg" /> <img src="../LaboratoryFlask.svg" /> <img src="../LadyBeetle.svg" /> <img src="../Landmark.svg" /> <img src="../Language.svg" /> <img src="../Laptop.svg" /> <img src="../Laptop_Chromebook.svg" /> <img src="../Laptop_Mac.svg" /> <img src="../Laptop_Windows.svg" /> <img src="../LargeBrusher.svg" /> <img src="../Launch.svg" /> <img src="../Leaf.svg" /> <img src="../Lemon.svg" /> <img src="../LGTM.svg" /> <img src="../LGTM_Alt.svg" /> <img src="../Library.svg" /> <img src="../LifeRing.svg" /> <img src="../LightBulb.svg" /> <img src="../LightBulb_Alt.svg" /> <img src="../LightningBolt.svg" /> <img src="../LINE.svg" /> <img src="../LineSpacing.svg" /> <img src="../LineStyle.svg" /> <img src="../LineWeight.svg" /> <img src="../LinkedIn.svg" /> <img src="../LinkHref.svg" /> <img src="../Linux.svg" /> <img src="../ListBullet.svg" /> <img src="../ListNumber.svg" /> <img src="../ListSheet.svg" /> <img src="../Location.svg" /> <img src="../Lock.svg" /> <img src="../Lock_Unlock.svg" /> <img src="../Lollipop.svg" /> <img src="../LowPriority.svg" /> <img src="../Lua.svg" /> <img src="../Luggage.svg" />
+<img src="../Label.svg" /> <img src="../LaboratoryFlask.svg" /> <img src="../LadyBeetle.svg" /> <img src="../Landmark.svg" /> <img src="../Language.svg" /> <img src="../Laptop.svg" /> <img src="../Laptop_Chromebook.svg" /> <img src="../Laptop_Mac.svg" /> <img src="../Laptop_Windows.svg" /> <img src="../LargeBrusher.svg" /> <img src="../Launch.svg" /> <img src="../Layers.svg" /> <img src="../Leaf.svg" /> <img src="../Lemon.svg" /> <img src="../LGTM.svg" /> <img src="../LGTM_Alt.svg" /> <img src="../Library.svg" /> <img src="../LifeRing.svg" /> <img src="../LightBulb.svg" /> <img src="../LightBulb_Alt.svg" /> <img src="../LightningBolt.svg" /> <img src="../LINE.svg" /> <img src="../LineSpacing.svg" /> <img src="../LineStyle.svg" /> <img src="../LineWeight.svg" /> <img src="../LinkedIn.svg" /> <img src="../LinkHref.svg" /> <img src="../Linux.svg" /> <img src="../ListBullet.svg" /> <img src="../ListNumber.svg" /> <img src="../ListSheet.svg" /> <img src="../Location.svg" /> <img src="../Lock.svg" /> <img src="../Lock_Unlock.svg" /> <img src="../Lollipop.svg" /> <img src="../LowPriority.svg" /> <img src="../Lua.svg" /> <img src="../Luggage.svg" />
 
 ### M
 
@@ -68,7 +68,7 @@
 
 ### P
 
-<img src="../PaintRoller.svg" /> <img src="../Palette.svg" /> <img src="../Panorama.svg" /> <img src="../Paperclip.svg" /> <img src="../Paperclip_Alt.svg" /> <img src="../Paperclip_Alt2.svg" /> <img src="../ParachuteBox.svg" /> <img src="../Paragraph.svg" /> <img src="../Parking.svg" /> <img src="../Passport.svg" /> <img src="../Patreon.svg" /> <img src="../Pause.svg" /> <img src="../Paw.svg" /> <img src="../PayPal.svg" /> <img src="../Pen.svg" /> <img src="../PepperHot.svg" /> <img src="../Periscope.svg" /> <img src="../Person.svg" /> <img src="../Person_Add.svg" /> <img src="../Pharmacy.svg" /> <img src="../PhoneCall.svg" /> <img src="../PhoneCall_End.svg" /> <img src="../Photo.svg" /> <img src="../Photo_Add.svg" /> <img src="../PhotoAlbum.svg" /> <img src="../PHP.svg" /> <img src="../Pickaxe.svg" /> <img src="../Pie.svg" /> <img src="../PieChart.svg" /> <img src="../Pig.svg" /> <img src="../Pinterest.svg" /> <img src="../Pizza.svg" /> <img src="../Play.svg" /> <img src="../PlayStation.svg" /> <img src="../Plug.svg" /> <img src="../Plus.svg" /> <img src="../Poll.svg" /> <img src="../Polymer.svg" /> <img src="../Poo.svg" /> <img src="../Popcorn.svg" /> <img src="../PotionFlask.svg" /> <img src="../PowerOff.svg" /> <img src="../PowerOn.svg" /> <img src="../PowerShell.svg" /> <img src="../Pray.svg" /> <img src="../PregnantWoman.svg" /> <img src="../Printer.svg" /> <img src="../Printer_Disable.svg" /> <img src="../Pumpkin.svg" /> <img src="../Puzzle.svg" /> <img src="../Python.svg" />
+<img src="../Package.svg" /> <img src="../PaintRoller.svg" /> <img src="../Palette.svg" /> <img src="../Panorama.svg" /> <img src="../Paperclip.svg" /> <img src="../Paperclip_Alt.svg" /> <img src="../Paperclip_Alt2.svg" /> <img src="../ParachuteBox.svg" /> <img src="../Paragraph.svg" /> <img src="../Parking.svg" /> <img src="../Passport.svg" /> <img src="../Patreon.svg" /> <img src="../Pause.svg" /> <img src="../Paw.svg" /> <img src="../PayPal.svg" /> <img src="../Pen.svg" /> <img src="../PepperHot.svg" /> <img src="../Periscope.svg" /> <img src="../Person.svg" /> <img src="../Person_Add.svg" /> <img src="../Pharmacy.svg" /> <img src="../PhoneCall.svg" /> <img src="../PhoneCall_End.svg" /> <img src="../Photo.svg" /> <img src="../Photo_Add.svg" /> <img src="../PhotoAlbum.svg" /> <img src="../PHP.svg" /> <img src="../Pickaxe.svg" /> <img src="../Pie.svg" /> <img src="../PieChart.svg" /> <img src="../Pig.svg" /> <img src="../Pinterest.svg" /> <img src="../Pizza.svg" /> <img src="../Play.svg" /> <img src="../PlayStation.svg" /> <img src="../Plug.svg" /> <img src="../Plus.svg" /> <img src="../Poll.svg" /> <img src="../Polymer.svg" /> <img src="../Poo.svg" /> <img src="../Popcorn.svg" /> <img src="../PotionFlask.svg" /> <img src="../PowerOff.svg" /> <img src="../PowerOn.svg" /> <img src="../PowerShell.svg" /> <img src="../Pray.svg" /> <img src="../PregnantWoman.svg" /> <img src="../Printer.svg" /> <img src="../Printer_Disable.svg" /> <img src="../Pumpkin.svg" /> <img src="../Puzzle.svg" /> <img src="../Python.svg" />
 
 ### Q
 
@@ -96,7 +96,7 @@
 
 ### W
 
-<img src="../Walk.svg" /> <img src="../Wallet.svg" /> <img src="../Warehouse.svg" /> <img src="../Warning.svg" /> <img src="../WashingMachine.svg" /> <img src="../Watch.svg" /> <img src="../Webpack.svg" /> <img src="../Whale.svg" /> <img src="../WhatsApp.svg" /> <img src="../WhatsApp_Alt.svg" /> <img src="../WhatsHot.svg" /> <img src="../Wheat.svg" /> <img src="../Wheel.svg" /> <img src="../Wheel_Alt.svg" /> <img src="../Wheelchair.svg" /> <img src="../Whistle.svg" /> <img src="../Widget.svg" /> <img src="../WiFi.svg" /> <img src="../WiFi_Off.svg" /> <img src="../Wii.svg" /> <img src="../Wikipedia.svg" /> <img src="../Wind.svg" /> <img src="../WineBottle.svg" /> <img src="../WineGlass.svg" /> <img src="../WizardHat.svg" /> <img src="../WomanBoot.svg" /> <img src="../WomanSandal.svg" /> <img src="../WordPress.svg" /> <img src="../WordPress_Alt.svg" /> <img src="../WrapText.svg" /> <img src="../Wrench.svg" />
+<img src="../Walk.svg" /> <img src="../Wallet.svg" /> <img src="../Warehouse.svg" /> <img src="../Warning.svg" /> <img src="../WashingMachine.svg" /> <img src="../Watch.svg" /> <img src="../Watermelon.svg" /> <img src="../Webpack.svg" /> <img src="../Whale.svg" /> <img src="../WhatsApp.svg" /> <img src="../WhatsApp_Alt.svg" /> <img src="../WhatsHot.svg" /> <img src="../Wheat.svg" /> <img src="../Wheel.svg" /> <img src="../Wheel_Alt.svg" /> <img src="../Wheelchair.svg" /> <img src="../Whistle.svg" /> <img src="../Widget.svg" /> <img src="../WiFi.svg" /> <img src="../WiFi_Off.svg" /> <img src="../Wii.svg" /> <img src="../Wikipedia.svg" /> <img src="../Wind.svg" /> <img src="../WineBottle.svg" /> <img src="../WineGlass.svg" /> <img src="../WizardHat.svg" /> <img src="../WomanBoot.svg" /> <img src="../WomanSandal.svg" /> <img src="../WordPress.svg" /> <img src="../WordPress_Alt.svg" /> <img src="../WrapText.svg" /> <img src="../Wrench.svg" />
 
 ### X - Z
 
@@ -132,7 +132,7 @@
 
 ## Minecraft
 
-<img src="../Minecraft/Creeper_Face.svg"/>
+<img src="../Minecraft/Creeper_Face.svg"/> <img src="../Minecraft/Creeper_Face_Outline.svg"/>
 
 ## Navigate
 
