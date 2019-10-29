@@ -1,7 +1,7 @@
 # <div align="center">SVG Icon Library - Quick View</div>
 
 <div align="right">
-	<strong>Last Update: </strong>2019-10-29 05:20 UTC<br />
+	<strong>Last Update: </strong>2019-10-29 07:10 UTC<br />
 </div>
 
 <strong>Note:</strong>
@@ -92,7 +92,7 @@
 
 ### V
 
-<img src="../VehicleFansCommunity.svg" /> <img src="../Verified.svg" /> <img src="../Viber.svg" /> <img src="../Viber_Alt.svg" /> <img src="../Vibration.svg" /> <img src="../VideoCamera.svg" /> <img src="../VideoCamera_Off.svg" /> <img src="../Vignette.svg" /> <img src="../Vihara.svg" /> <img src="../Vimeo.svg" /> <img src="../Vine.svg" /> <img src="../Visa.svg" /> <img src="../Visibility.svg" /> <img src="../Visibility_Off.svg" /> <img src="../VisualStudioCode.svg" /> <img src="../VK.svg" /> <img src="../VK_Alt.svg" /> <img src="../VLCMediaPlayer.svg" /> <img src="../Voicemail.svg" /> <img src="../Volleyball.svg" /> <img src="../Volume_Maximum.svg" /> <img src="../Volume_Minimum.svg" /> <img src="../Volume_Mute.svg" /> <img src="../Volume_Off.svg" /> <img src="../Vote.svg" /> <img src="../VRCardboard.svg" /> <img src="../VueJS.svg" />
+<img src="../VehicleFansCommunity.svg" /> <img src="../Verified.svg" /> <img src="../Viber.svg" /> <img src="../Viber_Alt.svg" /> <img src="../Vibration.svg" /> <img src="../VideoCamera.svg" /> <img src="../VideoCamera_Off.svg" /> <img src="../Vignette.svg" /> <img src="../Vihara.svg" /> <img src="../Vimeo.svg" /> <img src="../Vine.svg" /> <img src="../Visa.svg" /> <img src="../Visibility.svg" /> <img src="../Visibility_Off.svg" /> <img src="../VisualStudioCode.svg" /> <img src="../VK.svg" /> <img src="../VK_Alt.svg" /> <img src="../VLCMediaPlayer.svg" /> <img src="../Voicemail.svg" /> <img src="../Volleyball.svg" /> <img src="../Volume_Maximum.svg" /> <img src="../Volume_Minimum.svg" /> <img src="../Volume_Mute.svg" /> <img src="../Volume_Off.svg" /> <img src="../Vote.svg" /> <img src="../Vote_Alt.svg" /> <img src="../VRCardboard.svg" /> <img src="../VueJS.svg" />
 
 ### W
 
