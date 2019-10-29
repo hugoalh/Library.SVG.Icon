@@ -1,7 +1,7 @@
 # <div align="center">SVG Icon Library - Quick View</div>
 
 <div align="right">
-	<strong>Last Update: </strong>2019-10-29 03:35 UTC<br />
+	<strong>Last Update: </strong>2019-10-29 05:20 UTC<br />
 </div>
 
 <strong>Note:</strong>
@@ -120,7 +120,7 @@
 
 ## Minecraft
 
-<img src="../Minecraft/Creeper_Face.svg"/> <img src="../Minecraft/Creeper_Face_Outline.svg"/>
+<img src="../Minecraft/Anvil.svg"/> <img src="../Minecraft/Creeper_Face.svg"/> <img src="../Minecraft/Creeper_Face_Outline.svg"/>
 
 ## Navigate
 
