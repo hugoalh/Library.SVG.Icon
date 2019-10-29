@@ -1,7 +1,7 @@
 # <div align="center">SVG Icon Library - Quick View</div>
 
 <div align="right">
-	<strong>Last Update: </strong>2019-10-28 04:10 UTC<br />
+	<strong>Last Update: </strong>2019-10-29 03:35 UTC<br />
 </div>
 
 <strong>Note:</strong>
@@ -102,21 +102,13 @@
 
 <img src="../Xbox.svg" /> <img src="../Yarn.svg" /> <img src="../Yarn_Alt.svg" /> <img src="../Yelp.svg" /> <img src="../YinYang.svg" /> <img src="../YouTube.svg" /> <img src="../YouTubeGaming.svg" /> <img src="../ZoomIn.svg" /> <img src="../ZoomOut.svg" /> <img src="../Zzz.svg" />
 
-## Align - Object
+## Align
 
-<img src="../Align_Object/Bottom.svg" /> <img src="../Align_Object/Center.svg" /> <img src="../Align_Object/Left.svg" /> <img src="../Align_Object/Middle.svg" /> <img src="../Align_Object/Right.svg" /> <img src="../Align_Object/Top.svg" />
-
-## Align - Text
-
-<img src="../Align_Text/Bottom.svg" /> <img src="../Align_Text/Center.svg" /> <img src="../Align_Text/Justify.svg" /> <img src="../Align_Text/Left.svg" /> <img src="../Align_Text/Middle.svg" /> <img src="../Align_Text/Right.svg" /> <img src="../Align_Text/Top.svg" />
+<img src="../Align/Bottom.svg" /> <img src="../Align/Bottom_Object.svg" /> <img src="../Align/Center.svg" /> <img src="../Align/Center_Object.svg" /> <img src="../Align/Justify.svg" /> <img src="../Align/Left.svg" /> <img src="../Align/Left_Object.svg" /> <img src="../Align/Middle.svg" /> <img src="../Align/Middle_Object.svg" /> <img src="../Align/Right.svg" /> <img src="../Align/Right_Object.svg" /> <img src="../Align/Top.svg" /> <img src="../Align/Top_Object.svg" />
 
 ## Arrow
 
-<img src="../Arrow/Down.svg" /> <img src="../Arrow/Left.svg" /> <img src="../Arrow/Right.svg" /> <img src="../Arrow/Up.svg" />
-
-## Arrow (Tail)
-
-<img src="../Arrow_Tail/Down.svg" /> <img src="../Arrow_Tail/Left.svg" /> <img src="../Arrow_Tail/Right.svg" /> <img src="../Arrow_Tail/Up.svg" />
+<img src="../Arrow/Down.svg" /> <img src="../Arrow/Down_Tail.svg" /> <img src="../Arrow/Left.svg" /> <img src="../Arrow/Left_Tail.svg" /> <img src="../Arrow/Right.svg" /> <img src="../Arrow/Right_Tail.svg" /> <img src="../Arrow/Up.svg" /> <img src="../Arrow/Up_Tail.svg" />
 
 ## Chess
 
@@ -124,11 +116,7 @@
 
 ## Dice
 
-<img src="../Dice/Five.svg"/> <img src="../Dice/Four.svg"/> <img src="../Dice/One.svg"/> <img src="../Dice/Six.svg"/> <img src="../Dice/Three.svg"/> <img src="../Dice/Two.svg"/>
-
-## Dice (Outline)
-
-<img src="../Dice_Outline/Five.svg"/> <img src="../Dice_Outline/Four.svg"/> <img src="../Dice_Outline/One.svg"/> <img src="../Dice_Outline/Six.svg"/> <img src="../Dice_Outline/Three.svg"/> <img src="../Dice_Outline/Two.svg"/>
+<img src="../Dice/Five.svg" /> <img src="../Dice/Five_Outline.svg" /> <img src="../Dice/Four.svg" /> <img src="../Dice/Four_Outline.svg" /> <img src="../Dice/One.svg" /> <img src="../Dice/One_Outline.svg" /> <img src="../Dice/Six.svg" /> <img src="../Dice/Six_Outline.svg" /> <img src="../Dice/Three.svg" /> <img src="../Dice/Three_Outline.svg" /> <img src="../Dice/Two.svg" /> <img src="../Dice/Two_Outline.svg" />
 
 ## Minecraft
 
@@ -142,10 +130,6 @@
 
 <img src="../Poker/Club.svg" /> <img src="../Poker/Diamond.svg" /> <img src="../Poker/Heart.svg" /> <img src="../Poker/Spade.svg" />
 
-## Triangle (60)
+## Triangle
 
-<img src="../Triangle_60/Down.svg" /> <img src="../Triangle_60/Left.svg" /> <img src="../Triangle_60/Right.svg" /> <img src="../Triangle_60/Up.svg" />
-
-## Triangle (90)
-
-<img src="../Triangle_90/Down.svg" /> <img src="../Triangle_90/Left.svg" /> <img src="../Triangle_90/Right.svg" /> <img src="../Triangle_90/Up.svg" />
+<img src="../Triangle/Down_60.svg" /> <img src="../Triangle/Down_90.svg" /> <img src="../Triangle/Left_60.svg" /> <img src="../Triangle/Left_90.svg" /> <img src="../Triangle/Right_60.svg" /> <img src="../Triangle/Right_90.svg" /> <img src="../Triangle/Up_60.svg" /> <img src="../Triangle/Up_90.svg" />
