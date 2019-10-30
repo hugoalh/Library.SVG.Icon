@@ -1,7 +1,7 @@
 # <div align="center">SVG Icon Library - Quick View</div>
 
 <div align="right">
-	<strong>Last Update: </strong>2019-10-30 04:30 UTC<br />
+	<strong>Last Update: </strong>2019-10-30 08:25 UTC<br />
 </div>
 
 <strong>Note:</strong> This may take a while to load completely!
@@ -38,11 +38,11 @@
 
 ### H
 
-<img src="../Hamburger.svg" /> <img src="../Hammer.svg" /> <img src="../Hand.svg" /> <img src="../Handball.svg" /> <img src="../Handshake.svg" /> <img src="../Hashtag.svg" /> <img src="../Headset.svg" /> <img src="../Headset_WithMic.svg" /> <img src="../Healing.svg" /> <img src="../Heart.svg" /> <img src="../Heart_Outline.svg" /> <img src="../HeeledBoot.svg" /> <img src="../HeeledSandal.svg" /> <img src="../Helicopter.svg" /> <img src="../Helmet.svg" /> <img src="../Help.svg" /> <img src="../Help_Outline.svg" /> <img src="../HighHeeledShoe.svg" /> <img src="../Highlighter.svg" /> <img src="../HighPriority.svg" /> <img src="../HighVoltage.svg" /> <img src="../Hiking.svg" /> <img src="../HikingBoot.svg" /> <img src="../Hippo.svg" /> <img src="../History.svg" /> <img src="../Hockey.svg" /> <img src="../Home.svg" /> <img src="../Honeybee.svg" /> <img src="../Horse.svg" /> <img src="../Hospital.svg" /> <img src="../Hospital_Alt.svg" /> <img src="../Hotdog.svg" /> <img src="../Hotel.svg" /> <img src="../HotTub.svg" /> <img src="../Hourglass.svg" /> <img src="../Hourglass_Outline.svg" /> <img src="../House.svg" /> <img src="../HTML5.svg" /> <img src="../HTTP.svg" /> <img src="../HTTPS.svg" />
+<img src="../Hamburger.svg" /> <img src="../Hammer.svg" /> <img src="../Hand.svg" /> <img src="../Handball.svg" /> <img src="../Handshake.svg" /> <img src="../Hashtag.svg" /> <img src="../Headset.svg" /> <img src="../Headset_WithMic.svg" /> <img src="../Healing.svg" /> <img src="../Heart.svg" /> <img src="../Heart_Outline.svg" /> <img src="../HeeledBoot.svg" /> <img src="../HeeledSandal.svg" /> <img src="../Helicopter.svg" /> <img src="../Helmet.svg" /> <img src="../Help.svg" /> <img src="../Help_Outline.svg" /> <img src="../HighHeeledShoe.svg" /> <img src="../Highlighter.svg" /> <img src="../HighPriority.svg" /> <img src="../HighVoltage.svg" /> <img src="../Hiking.svg" /> <img src="../HikingBoot.svg" /> <img src="../Hippo.svg" /> <img src="../History.svg" /> <img src="../Hockey.svg" /> <img src="../Home.svg" /> <img src="../Honeybee.svg" /> <img src="../Horse.svg" /> <img src="../Hospital.svg" /> <img src="../Hospital_Alt.svg" /> <img src="../Hospital_Alt2.svg" /> <img src="../Hotdog.svg" /> <img src="../Hotel.svg" /> <img src="../HotTub.svg" /> <img src="../Hourglass.svg" /> <img src="../Hourglass_Outline.svg" /> <img src="../House.svg" /> <img src="../HTML5.svg" /> <img src="../HTTP.svg" /> <img src="../HTTPS.svg" />
 
 ### I
 
-<img src="../Icecream.svg" /> <img src="../IDBadge.svg" /> <img src="../IDCard.svg" /> <img src="../Igloo.svg" /> <img src="../Image.svg" /> <img src="../Inbox.svg" /> <img src="../Incandescent.svg" /> <img src="../Indent_Decrease.svg" /> <img src="../Indent_Increase.svg" /> <img src="../Industry.svg" /> <img src="../Information.svg" /> <img src="../Information_Outline.svg" /> <img src="../Inkscape.svg" /> <img src="../Instagram.svg" /> <img src="../Instagram_Alt.svg" /> <img src="../Intel.svg" /> <img src="../iPad.svg" /> <img src="../Iridescent.svg" /> <img src="../Italic.svg" />
+<img src="../Icecream.svg" /> <img src="../IDBadge.svg" /> <img src="../IDCard.svg" /> <img src="../Igloo.svg" /> <img src="../Image.svg" /> <img src="../Image_Outline.svg" /> <img src="../Inbox.svg" /> <img src="../Incandescent.svg" /> <img src="../Indent_Decrease.svg" /> <img src="../Indent_Increase.svg" /> <img src="../Industry.svg" /> <img src="../Information.svg" /> <img src="../Information_Outline.svg" /> <img src="../Inkscape.svg" /> <img src="../Instagram.svg" /> <img src="../Instagram_Alt.svg" /> <img src="../Intel.svg" /> <img src="../iPad.svg" /> <img src="../Iridescent.svg" /> <img src="../Italic.svg" />
 
 ### J - K
 
