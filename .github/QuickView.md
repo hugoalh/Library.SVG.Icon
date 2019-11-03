@@ -1,7 +1,7 @@
 # <div align="center">SVG Icon Library - Quick View</div>
 
 <div align="right">
-	<strong>Last Update: </strong>2019-11-02 02:25 UTC<br />
+	<strong>Last Update: </strong>2019-11-03 03:20 UTC<br />
 </div>
 
 <strong>Note:</strong> This may take a while to load completely!
@@ -10,7 +10,7 @@
 
 ### A
 
-<img src="../Abacus.svg" /> <img src="../Accessibility.svg" /> <img src="../Account.svg" /> <img src="../Acorn.svg" /> <img src="../Add.svg" /> <img src="../AdobeAcrobat.svg" /> <img src="../AdobeInc.svg" /> <img src="../Airbnb.svg" /> <img src="../Airplane.svg" /> <img src="../AirPlay.svg" /> <img src="../AirportShuttleBus.svg" /> <img src="../Alarm.svg" /> <img src="../Alarm_Add.svg" /> <img src="../Alarm_Off.svg" /> <img src="../Alarm_On.svg" /> <img src="../Alien.svg" /> <img src="../Alien_Alt.svg" /> <img src="../AlienMonster.svg" /> <img src="../Amazon.svg" /> <img src="../Ambulance.svg" /> <img src="../AMD.svg" /> <img src="../Analytics.svg" /> <img src="../Anchor.svg" /> <img src="../Anger.svg" /> <img src="../AngularJS.svg" /> <img src="../Announcement.svg" /> <img src="../Apartment.svg" /> <img src="../Apple.svg" /> <img src="../AppleInc.svg" /> <img src="../Applications.svg" /> <img src="../Applications_Alt.svg" /> <img src="../Archive.svg" /> <img src="../Archway.svg" /> <img src="../Arduino.svg" /> <img src="../Assignment.svg" /> <img src="../Astronaut.svg" /> <img src="../AthleticShoe.svg" /> <img src="../Atom.svg" /> <img src="../Award.svg" /> <img src="../Axe.svg" />
+<img src="../Abacus.svg" /> <img src="../Accessibility.svg" /> <img src="../Account.svg" /> <img src="../Acorn.svg" /> <img src="../Add.svg" /> <img src="../AdobeAcrobat.svg" /> <img src="../AdobeInc.svg" /> <img src="../Airbnb.svg" /> <img src="../Airplane.svg" /> <img src="../AirPlay.svg" /> <img src="../AirportShuttleBus.svg" /> <img src="../Alarm.svg" /> <img src="../Alarm_Add.svg" /> <img src="../Alarm_Off.svg" /> <img src="../Alarm_On.svg" /> <img src="../Alien.svg" /> <img src="../Alien_Alt.svg" /> <img src="../AlienMonster.svg" /> <img src="../Amazon.svg" /> <img src="../Ambulance.svg" /> <img src="../AMD.svg" /> <img src="../Analytics.svg" /> <img src="../Anchor.svg" /> <img src="../Anger.svg" /> <img src="../AngularJS.svg" /> <img src="../Announcement.svg" /> <img src="../Apartment.svg" /> <img src="../Apple.svg" /> <img src="../AppleInc.svg" /> <img src="../Applications.svg" /> <img src="../Applications_Alt.svg" /> <img src="../Archive.svg" /> <img src="../Archway.svg" /> <img src="../Arduino.svg" /> <img src="../Assignment.svg" /> <img src="../Assignment_Late.svg" /> <img src="../Assignment_TurnIn.svg" /> <img src="../Astronaut.svg" /> <img src="../AthleticShoe.svg" /> <img src="../Atom.svg" /> <img src="../Award.svg" /> <img src="../Axe.svg" />
 
 ### B
 
@@ -46,7 +46,7 @@
 
 ### J - K
 
-<img src="../JackOLantern.svg" /> <img src="../Java.svg" /> <img src="../JavaScript.svg" /> <img src="../Jekyll.svg" /> <img src="../jQuery.svg" /> <img src="../Jug.svg" /> <img src="../Key.svg" /> <img src="../Keyboard.svg" /> <img src="../Keyboard_Outline.svg" /> <img src="../KitchenKnife.svg" /> <img src="../KiwiBird.svg" /> <img src="../KneeHighBoot.svg" />
+<img src="../JackOLantern.svg" /> <img src="../Java.svg" /> <img src="../JavaScript.svg" /> <img src="../Jekyll.svg" /> <img src="../jQuery.svg" /> <img src="../Jug.svg" /> <img src="../Key.svg" /> <img src="../Keyboard.svg" /> <img src="../Keyboard_Outline.svg" /> <img src="../KitchenKnife.svg" /> <img src="../KiwiBird.svg" /> <img src="../KneeHighBoot.svg" /> <img src="../Knife.svg" />
 
 ### L
 
@@ -94,7 +94,7 @@
 
 ### W
 
-<img src="../Walk.svg" /> <img src="../Wallet.svg" /> <img src="../Warehouse.svg" /> <img src="../Warning.svg" /> <img src="../WashingMachine.svg" /> <img src="../Watch.svg" /> <img src="../Watermelon.svg" /> <img src="../Webpack.svg" /> <img src="../Whale.svg" /> <img src="../WhatsApp.svg" /> <img src="../WhatsApp_Alt.svg" /> <img src="../WhatsHot.svg" /> <img src="../Wheat.svg" /> <img src="../Wheel.svg" /> <img src="../Wheel_Alt.svg" /> <img src="../Wheelchair.svg" /> <img src="../Whistle.svg" /> <img src="../Widget.svg" /> <img src="../WiFi.svg" /> <img src="../WiFi_Off.svg" /> <img src="../Wii.svg" /> <img src="../Wikipedia.svg" /> <img src="../Wind.svg" /> <img src="../WineBottle.svg" /> <img src="../WineGlass.svg" /> <img src="../WizardHat.svg" /> <img src="../WomanBoot.svg" /> <img src="../WomanSandal.svg" /> <img src="../WordPress.svg" /> <img src="../WordPress_Alt.svg" /> <img src="../WrapText.svg" /> <img src="../Wrench.svg" />
+<img src="../Walk.svg" /> <img src="../Wallet.svg" /> <img src="../Wallpaper.svg" /> <img src="../Warehouse.svg" /> <img src="../Warning.svg" /> <img src="../WashingMachine.svg" /> <img src="../Watch.svg" /> <img src="../Watermelon.svg" /> <img src="../Webpack.svg" /> <img src="../Whale.svg" /> <img src="../WhatsApp.svg" /> <img src="../WhatsApp_Alt.svg" /> <img src="../WhatsHot.svg" /> <img src="../Wheat.svg" /> <img src="../Wheel.svg" /> <img src="../Wheel_Alt.svg" /> <img src="../Wheelchair.svg" /> <img src="../Whistle.svg" /> <img src="../Widget.svg" /> <img src="../WiFi.svg" /> <img src="../WiFi_Off.svg" /> <img src="../Wii.svg" /> <img src="../Wikipedia.svg" /> <img src="../Wind.svg" /> <img src="../WineBottle.svg" /> <img src="../WineGlass.svg" /> <img src="../WizardHat.svg" /> <img src="../WomanBoot.svg" /> <img src="../WomanSandal.svg" /> <img src="../WordPress.svg" /> <img src="../WordPress_Alt.svg" /> <img src="../WrapText.svg" /> <img src="../Wrench.svg" />
 
 ### X - Z
 
