@@ -1,7 +1,7 @@
 # <div align="center">SVG Icon Library - Quick View</div>
 
 <div align="right">
-	<strong>Last Update: </strong>2019-11-09 09:40 UTC<br />
+	<strong>Last Update: </strong>2019-11-11 04:10 UTC<br />
 </div>
 
 <strong>Note:</strong> This may take a while to load completely!
@@ -115,6 +115,16 @@
 ## Dice
 
 <img src="../Dice/Five.svg" /> <img src="../Dice/Five_Outline.svg" /> <img src="../Dice/Four.svg" /> <img src="../Dice/Four_Outline.svg" /> <img src="../Dice/One.svg" /> <img src="../Dice/One_Outline.svg" /> <img src="../Dice/Six.svg" /> <img src="../Dice/Six_Outline.svg" /> <img src="../Dice/Three.svg" /> <img src="../Dice/Three_Outline.svg" /> <img src="../Dice/Two.svg" /> <img src="../Dice/Two_Outline.svg" />
+
+## Input
+
+### Chinese
+
+<img src="../Input/Chinese/Cangjie.svg" /> <img src="../Input/Chinese/Cangjie_Outline.svg" /> <img src="../Input/Chinese/Dayi.svg" /> <img src="../Input/Chinese/Dayi_Outline.svg" /> <img src="../Input/Chinese/Phonetic.svg" /> <img src="../Input/Chinese/Phonetic_Outline.svg" /> <img src="../Input/Chinese/Pinyin.svg" /> <img src="../Input/Chinese/Pinyin_Outline.svg" /> <img src="../Input/Chinese/PutonghuaPinyin.svg" /> <img src="../Input/Chinese/PutonghuaPinyin_Outline.svg" /> <img src="../Input/Chinese/Q9.svg" /> <img src="../Input/Chinese/Q9_Outline.svg" /> <img src="../Input/Chinese/Row.svg" /> <img src="../Input/Chinese/Row_Outline.svg" /> <img src="../Input/Chinese/SimplifiedCangjie.svg" /> <img src="../Input/Chinese/SimplifiedCangjie_Outline.svg" />
+
+### Simplified Chinese
+
+<img src="../Input/SimplifiedChinese/CantonesePinyin.svg" /> <img src="../Input/SimplifiedChinese/CantonesePinyin_Outline.svg" /> <img src="../Input/SimplifiedChinese/Pinyin.svg" /> <img src="../Input/SimplifiedChinese/Pinyin_Outline.svg" />
 
 ## Minecraft
 
