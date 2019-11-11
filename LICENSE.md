@@ -4,7 +4,7 @@
 
 <div align="right">
 	<strong>Version: </strong>1.0<br />
-	<strong>Last Update: </strong>2019-10-12 08:00 UTC<br />
+	<strong>Last Update: </strong>2019-11-11 03:10 UTC<br />
 	<strong>Source: </strong><a href="https://creativecommons.org/publicdomain/zero/1.0/legalcode">Creative Commons</a>
 </div>
 
@@ -61,13 +61,15 @@ For these and/or other purposes and motivations, and without any expectation of 
 
 A Work made available under CC0 may be protected by copyright and related or neighboring rights ("Copyright and Related Rights"). Copyright and Related Rights include, but are not limited to, the following:
 
-- the right to reproduce, adapt, distribute, perform, display, communicate, and translate a Work;
-- moral rights retained by the original author(s) and/or performer(s);
-- publicity and privacy rights pertaining to a person's image or likeness depicted in a Work;
-- rights protecting against unfair competition in regards to a Work, subject to the limitations in paragraph 4(a), below;
-- rights protecting the extraction, dissemination, use and reuse of data in a Work;
-- database rights (such as those arising under Directive 96/9/EC of the European Parliament and of the Council of 11 March 1996 on the legal protection of databases, and under any national implementation thereof, including any amended or successor version of such directive); and
-- other similar, equivalent or corresponding rights throughout the world based on applicable law or treaty, and any national implementations thereof.
+<ol type="i">
+	<li>the right to reproduce, adapt, distribute, perform, display, communicate, and translate a Work;</li>
+	<li>moral rights retained by the original author(s) and/or performer(s);</li>
+	<li>publicity and privacy rights pertaining to a person's image or likeness depicted in a Work;</li>
+	<li>rights protecting against unfair competition in regards to a Work, subject to the limitations in paragraph 4(a), below;</li>
+	<li>rights protecting the extraction, dissemination, use and reuse of data in a Work;</li>
+	<li>database rights (such as those arising under Directive 96/9/EC of the European Parliament and of the Council of 11 March 1996 on the legal protection of databases, and under any national implementation thereof, including any amended or successor version of such directive); and</li>
+	<li>other similar, equivalent or corresponding rights throughout the world based on applicable law or treaty, and any national implementations thereof.</li>
+</ol>
 
 ### 2. Waiver
 
@@ -79,7 +81,9 @@ Should any part of the Waiver for any reason be judged legally invalid or ineffe
 
 ### 4. Limitations and Disclaimers
 
-- No trademark or patent rights held by Affirmer are waived, abandoned, surrendered, licensed or otherwise affected by this document.
-- Affirmer offers the Work as-is and makes no representations or warranties of any kind concerning the Work, express, implied, statutory or otherwise, including without limitation warranties of title, merchantability, fitness for a particular purpose, non infringement, or the absence of latent or other defects, accuracy, or the present or absence of errors, whether or not discoverable, all to the greatest extent permissible under applicable law.
-- Affirmer disclaims responsibility for clearing rights of other persons that may apply to the Work or any use thereof, including without limitation any person's Copyright and Related Rights in the Work. Further, Affirmer disclaims responsibility for obtaining any necessary consents, permissions or other rights required for any use of the Work.
-- Affirmer understands and acknowledges that Creative Commons is not a party to this document and has no duty or obligation with respect to this CC0 or use of the Work.
+<ol type="i">
+	<li>No trademark or patent rights held by Affirmer are waived, abandoned, surrendered, licensed or otherwise affected by this document.</li>
+	<li>Affirmer offers the Work as-is and makes no representations or warranties of any kind concerning the Work, express, implied, statutory or otherwise, including without limitation warranties of title, merchantability, fitness for a particular purpose, non infringement, or the absence of latent or other defects, accuracy, or the present or absence of errors, whether or not discoverable, all to the greatest extent permissible under applicable law.</li>
+	<li>Affirmer disclaims responsibility for clearing rights of other persons that may apply to the Work or any use thereof, including without limitation any person's Copyright and Related Rights in the Work. Further, Affirmer disclaims responsibility for obtaining any necessary consents, permissions or other rights required for any use of the Work.</li>
+	<li>Affirmer understands and acknowledges that Creative Commons is not a party to this document and has no duty or obligation with respect to this CC0 or use of the Work.</li>
+</ol>
