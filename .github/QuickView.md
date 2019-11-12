@@ -1,7 +1,7 @@
 # <div align="center">SVG Icon Library - Quick View</div>
 
 <div align="right">
-	<strong>Last Update: </strong>2019-11-11 04:30 UTC<br />
+	<strong>Last Update: </strong>2019-11-12 04:30 UTC<br />
 </div>
 
 <strong>Note:</strong> This may take a while to load completely!
@@ -14,7 +14,7 @@
 
 ### B
 
-<img src="../Baby.svg" /> <img src="../Baby_Face.svg" /> <img src="../BabyCarriage.svg" /> <img src="../Backpack.svg" /> <img src="../Backspace.svg" /> <img src="../Bacon.svg" /> <img src="../Badge.svg" /> <img src="../Baidu.svg" /> <img src="../BalanceScale.svg" /> <img src="../BalletShoes.svg" /> <img src="../Ballot.svg" /> <img src="../Banana.svg" /> <img src="../Bandcamp.svg" /> <img src="../Bandcamp_Alt.svg" /> <img src="../Bank.svg" /> <img src="../BarberPole.svg" /> <img src="../BarChart.svg" /> <img src="../BarChart_Horizontal.svg" /> <img src="../Baseball.svg" /> <img src="../Basketball.svg" /> <img src="../Bat.svg" /> <img src="../Bat_Alt.svg" /> <img src="../BathTub.svg" /> <img src="../BeachUmbrella.svg" /> <img src="../Bed.svg" /> <img src="../Bed_Empty.svg" /> <img src="../Bee.svg" /> <img src="../Beer.svg" /> <img src="../Bicycle.svg" /> <img src="../Bike.svg" /> <img src="../Bing.svg" /> <img src="../Binoculars.svg" /> <img src="../Biohazard.svg" /> <img src="../Bitbucket.svg" /> <img src="../Blender.svg" /> <img src="../BlenderSoftware.svg" /> <img src="../Blind.svg" /> <img src="../Block.svg" /> <img src="../Block_Alt.svg" /> <img src="../Blogger.svg" /> <img src="../Blogger_Alt.svg" /> <img src="../Blowfish.svg" /> <img src="../Bluetooth.svg" /> <img src="../Bluetooth_Alt.svg" /> <img src="../Bold.svg" /> <img src="../Bomb.svg" /> <img src="../Bone.svg" /> <img src="../Book.svg" /> <img src="../Bookmark.svg" /> <img src="../Bookmark_Outline.svg" /> <img src="../Bookmarks.svg" /> <img src="../Boot.svg" /> <img src="../Bootstrap.svg" /> <img src="../BorderColour.svg" /> <img src="../BowlingBall.svg" /> <img src="../BoxingGlove.svg" /> <img src="../Brain.svg" /> <img src="../Bread.svg" /> <img src="../BroadcastTower.svg" /> <img src="../BrokenPage.svg" /> <img src="../Broom.svg" /> <img src="../Brusher.svg" /> <img src="../Buffer.svg" /> <img src="../Bug.svg" /> <img src="../Bullhorn.svg" /> <img src="../Burrito.svg" /> <img src="../Bus.svg" /> <img src="../Bus_Alt.svg" /> <img src="../BusinessBag.svg" /> <img src="../BusinessBag_Alt.svg" /> <img src="../BusinessBag_Outline.svg" /> <img src="../BusStop.svg" />
+<img src="../Baby.svg" /> <img src="../Baby_Face.svg" /> <img src="../BabyCarriage.svg" /> <img src="../Backpack.svg" /> <img src="../Backspace.svg" /> <img src="../Bacon.svg" /> <img src="../Badge.svg" /> <img src="../Baidu.svg" /> <img src="../BalanceScale.svg" /> <img src="../BalletShoes.svg" /> <img src="../Ballot.svg" /> <img src="../Banana.svg" /> <img src="../Bandcamp.svg" /> <img src="../Bandcamp_Alt.svg" /> <img src="../Bank.svg" /> <img src="../BarberPole.svg" /> <img src="../BarChart.svg" /> <img src="../BarChart_Horizontal.svg" /> <img src="../Baseball.svg" /> <img src="../Basketball.svg" /> <img src="../Bat.svg" /> <img src="../Bat_Alt.svg" /> <img src="../BathTub.svg" /> <img src="../BeachUmbrella.svg" /> <img src="../Bed.svg" /> <img src="../Bed_Empty.svg" /> <img src="../Bee.svg" /> <img src="../Beer.svg" /> <img src="../Bell.svg" /> <img src="../Bicycle.svg" /> <img src="../Bike.svg" /> <img src="../Bing.svg" /> <img src="../Binoculars.svg" /> <img src="../Biohazard.svg" /> <img src="../Bitbucket.svg" /> <img src="../Blender.svg" /> <img src="../BlenderSoftware.svg" /> <img src="../Blind.svg" /> <img src="../Block.svg" /> <img src="../Block_Alt.svg" /> <img src="../Blogger.svg" /> <img src="../Blogger_Alt.svg" /> <img src="../Blowfish.svg" /> <img src="../Bluetooth.svg" /> <img src="../Bluetooth_Alt.svg" /> <img src="../Bold.svg" /> <img src="../Bomb.svg" /> <img src="../Bone.svg" /> <img src="../Book.svg" /> <img src="../Bookmark.svg" /> <img src="../Bookmark_Outline.svg" /> <img src="../Bookmarks.svg" /> <img src="../Boot.svg" /> <img src="../Bootstrap.svg" /> <img src="../BorderColour.svg" /> <img src="../BowlingBall.svg" /> <img src="../BoxingGlove.svg" /> <img src="../Brain.svg" /> <img src="../Bread.svg" /> <img src="../BroadcastTower.svg" /> <img src="../BrokenPage.svg" /> <img src="../Broom.svg" /> <img src="../Brusher.svg" /> <img src="../Buffer.svg" /> <img src="../Bug.svg" /> <img src="../Bullhorn.svg" /> <img src="../Burrito.svg" /> <img src="../Bus.svg" /> <img src="../Bus_Alt.svg" /> <img src="../BusinessBag.svg" /> <img src="../BusinessBag_Alt.svg" /> <img src="../BusinessBag_Outline.svg" /> <img src="../BusStop.svg" />
 
 ### C
 
@@ -112,11 +112,17 @@
 
 <img src="../Chess/Bishop.svg" /> <img src="../Chess/Knight.svg" /> <img src="../Chess/Pawn.svg" /> <img src="../Chess/Queen.svg" /> <img src="../Chess/Rook.svg" />
 
+## Clock
+
+<img src="../Clock/1.svg" /> <img src="../Clock/1_Outline.svg" /> <img src="../Clock/2.svg" /> <img src="../Clock/2_Outline.svg" /> <img src="../Clock/3.svg" /> <img src="../Clock/3_Outline.svg" /> <img src="../Clock/4.svg" /> <img src="../Clock/4_Outline.svg" /> <img src="../Clock/5.svg" /> <img src="../Clock/5_Outline.svg" /> <img src="../Clock/6.svg" /> <img src="../Clock/6_Outline.svg" /> <img src="../Clock/7.svg" /> <img src="../Clock/7_Outline.svg" /> <img src="../Clock/8.svg" /> <img src="../Clock/8_Outline.svg" /> <img src="../Clock/9.svg" /> <img src="../Clock/9_Outline.svg" /> <img src="../Clock/10.svg" /> <img src="../Clock/10_Outline.svg" /> <img src="../Clock/11.svg" /> <img src="../Clock/11_Outline.svg" /> <img src="../Clock/12.svg" /> <img src="../Clock/12_Outline.svg" />
+
 ## Dice
 
 <img src="../Dice/Five.svg" /> <img src="../Dice/Five_Outline.svg" /> <img src="../Dice/Four.svg" /> <img src="../Dice/Four_Outline.svg" /> <img src="../Dice/One.svg" /> <img src="../Dice/One_Outline.svg" /> <img src="../Dice/Six.svg" /> <img src="../Dice/Six_Outline.svg" /> <img src="../Dice/Three.svg" /> <img src="../Dice/Three_Outline.svg" /> <img src="../Dice/Two.svg" /> <img src="../Dice/Two_Outline.svg" />
 
 ## Input
+
+<img src="../Input/Chinese.svg" /> <img src="../Input/English.svg" /> <img src="../Input/SimplifiedChinese.svg" />
 
 ### Chinese
 
