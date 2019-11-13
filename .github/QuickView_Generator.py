@@ -3,7 +3,7 @@
 #   Author:
 #     hugoalh
 #   Language:
-#     Python
+#     Python 3.8
 # ==============================================================================
 import os, pathlib, time
 
