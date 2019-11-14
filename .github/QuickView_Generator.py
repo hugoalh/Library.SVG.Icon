@@ -7,7 +7,9 @@
 # ==============================================================================
 import os, pathlib, time
 
+# ::::::::::::::::::::::::::::::::::::::
 # Data
+# ::::::::::::::::::::::::::::::::::::::
 CurrentUTCTime = time.strftime("%Y-%m-%d %H:%M", time.gmtime())
 PathData = {
 	"Repository": str(pathlib.Path(os.path.abspath(__file__)).parent.parent)
@@ -22,12 +24,14 @@ IgnoreList = {
 	]
 }
 
-# Program
+# ::::::::::::::::::::::::::::::::::::::
+# Program - Listing Data & File
+# ::::::::::::::::::::::::::::::::::::::
 print("Current UTC Time:", CurrentUTCTime)
-print("Repository Path:", PathData["Repository"])
-print("Document Path:", PathData["Document"])
-print("Ignore SVG File:", IgnoreList["SVGFile"])
-print("Ignore Directory:", IgnoreList["Directory"])
+print("Path - Repository:", PathData["Repository"])
+print("Path - Document:", PathData["Document"])
+print("Ignore - SVG File:", IgnoreList["SVGFile"])
+print("Ignore - Directory:", IgnoreList["Directory"])
 def DetectIsIgnore(InputFileName):
 	for Element in IgnoreList["Directory"]:
 		if (InputFileName.find(Element) == 0):
@@ -35,26 +39,69 @@ def DetectIsIgnore(InputFileName):
 	for Element in IgnoreList["SVGFile"]:
 		if (InputFileName.find(Element) != -1):
 			return True
-	if (InputFileName.find(".svg", len(InputFileName) - 5) == -1):
+	if (InputFileName.find(".svg", len(InputFileName) - len(".svg")) == -1):
 		return True
 	return False
 SVGFileList = []
 for Root, Directories, FilesName in os.walk(PathData["Repository"]):
 	for FileName in FilesName:
-		FullPath = os.path.join(Root, FileName).replace(PathData["Repository"] + "\\", "")
-		if (DetectIsIgnore(FullPath) == False):
-			SVGFileList.append(FullPath)
+		FileFullPath = os.path.join(Root, FileName).replace(PathData["Repository"] + "\\", "")
+		if (DetectIsIgnore(FileFullPath) == False):
+			SVGFileList.append(FileFullPath)
 print("SVG File:", SVGFileList)
-DocumentContent = {
-	"General": ""
-}
-SVGFileList_Proceeded = []
-DocumentContent["General"] = DocumentContent["General"] + "<table>"
-for Element in SVGFileList:
-	if (Element.find("\\") == -1):
-		DocumentContent["General"] = DocumentContent["General"] + "\n\t<tr><td><img src=\"../" + Element + "\" /></td>" + "<td>" + Element.replace(".svg", "") + "</td></tr>"
-		SVGFileList_Proceeded.append(Element)
-DocumentContent["General"] = DocumentContent["General"] + "\n</table>"
-print("Document Content - General" + DocumentContent["General"])
-# Document = open(PathData["Document"], "wt")
-# Document.close()
+
+# ::::::::::::::::::::::::::::::::::::::
+# Program - Generate Document Content
+# ::::::::::::::::::::::::::::::::::::::
+DocumentContent = {}
+def DocumentContentManualGenerator(InternalCatalog, HeaderString, FindQuery, FindResult):
+	SVGFileList_Proceeded = []
+	DocumentContent[InternalCatalog] = ""
+	for Element in SVGFileList:
+		ElementPath = Element.replace("\\", "/")
+		ElementName = ElementPath.replace(".svg", "")
+		if (Element.find(FindQuery) == FindResult):
+			DocumentContent[InternalCatalog] = DocumentContent[InternalCatalog] + "\n\t<tr><td><img src=\"../" + ElementPath + "\" /></td>" + "<td>" + ElementName + "</td></tr>"
+			SVGFileList_Proceeded.append(Element)
+	DocumentContent[InternalCatalog] = HeaderString + "\n\n<table>" + DocumentContent[InternalCatalog] + "\n</table>"
+	for Element in SVGFileList_Proceeded:
+		SVGFileList.remove(Element)
+DocumentContentManualGenerator("General", "## General", "\\", -1)
+DocumentContentManualGenerator("Align", "## Align", "Align\\", 0)
+DocumentContentManualGenerator("Arrow", "## Arrow", "Arrow\\", 0)
+DocumentContentManualGenerator("Chess", "## Chess", "Chess\\", 0)
+DocumentContentManualGenerator("Clock", "## Clock", "Clock\\", 0)
+DocumentContentManualGenerator("Dice", "## Dice", "Dice\\", 0)
+DocumentContentManualGenerator("Input_Chinese", "### Chinese", "Input\\Chinese\\", 0)
+DocumentContentManualGenerator("Input_SimplifiedChinese", "### Simplified Chinese", "Input\\SimplifiedChinese\\", 0)
+DocumentContentManualGenerator("Input", "## Input", "Input\\", 0)
+DocumentContentManualGenerator("Minecraft", "## Minecraft", "Minecraft\\", 0)
+DocumentContentManualGenerator("Navigate", "## Navigate", "Navigate\\", 0)
+DocumentContentManualGenerator("Poker", "## Poker", "Poker\\", 0)
+DocumentContentManualGenerator("Triangle", "## Triangle", "Triangle\\", 0)
+if (len(SVGFileList) > 0):
+	raise ValueError("SVG Files are not fully handled by generator, please check the pattern!")
+
+# ::::::::::::::::::::::::::::::::::::::
+# Program - Write Document
+# ::::::::::::::::::::::::::::::::::::::
+Document = open(PathData["Document"], "wt", 1, "utf_8", "replace")
+Document.write(
+	"# <div align=\"center\">SVG Icon Library - Quick View</div>\n\n" + 
+	"<div align=\"right\"><strong>Last Update: </strong>" + CurrentUTCTime + " UTC</div>\n\n" + 
+	"<strong>Note:</strong> This may take a while to load completely!\n\n" + 
+	DocumentContent["General"] + "\n\n" + 
+	DocumentContent["Align"] + "\n\n" + 
+	DocumentContent["Arrow"] + "\n\n" + 
+	DocumentContent["Chess"] + "\n\n" + 
+	DocumentContent["Clock"] + "\n\n" + 
+	DocumentContent["Dice"] + "\n\n" + 
+	DocumentContent["Input"] + "\n\n" + 
+	DocumentContent["Input_Chinese"] + "\n\n" + 
+	DocumentContent["Input_SimplifiedChinese"] + "\n\n" + 
+	DocumentContent["Minecraft"] + "\n\n" + 
+	DocumentContent["Navigate"] + "\n\n" + 
+	DocumentContent["Poker"] + "\n\n" + 
+	DocumentContent["Triangle"] + "\n"
+)
+Document.close()
