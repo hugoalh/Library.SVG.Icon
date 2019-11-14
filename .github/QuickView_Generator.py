@@ -15,6 +15,7 @@ PathData = {
 	"Repository": str(pathlib.Path(os.path.abspath(__file__)).parent.parent)
 }
 PathData["Document"] = os.path.join(PathData["Repository"], ".github\\QuickView.md")
+PathData["Document_List"] = os.path.join(PathData["Repository"], ".github\\QuickView_List.md")
 IgnoreList = {
 	"SVGFile": [
 		"_Template.svg"
@@ -29,7 +30,7 @@ IgnoreList = {
 # ::::::::::::::::::::::::::::::::::::::
 print("Current UTC Time:", CurrentUTCTime)
 print("Path - Repository:", PathData["Repository"])
-print("Path - Document:", PathData["Document"])
+print("Path - Document - List:", PathData["Document_List"])
 print("Ignore - SVG File:", IgnoreList["SVGFile"])
 print("Ignore - Directory:", IgnoreList["Directory"])
 def DetectIsIgnore(InputFileName):
@@ -54,16 +55,20 @@ print("SVG File:", SVGFileList)
 # Program - Generate Document Content
 # ::::::::::::::::::::::::::::::::::::::
 DocumentContent = {}
+DocumentContent_List = {}
 def DocumentContentManualGenerator(InternalCatalog, HeaderString, FindQuery, FindResult):
 	SVGFileList_Proceeded = []
 	DocumentContent[InternalCatalog] = ""
+	DocumentContent_List[InternalCatalog] = ""
 	for Element in SVGFileList:
 		ElementPath = Element.replace("\\", "/")
 		ElementName = ElementPath.replace(".svg", "")
 		if (Element.find(FindQuery) == FindResult):
-			DocumentContent[InternalCatalog] = DocumentContent[InternalCatalog] + "\n\t<tr><td><img src=\"../" + ElementPath + "\" /></td>" + "<td>" + ElementName + "</td></tr>"
+			DocumentContent[InternalCatalog] = DocumentContent[InternalCatalog] + "<img src=\"../" + ElementPath + "\" />"
+			DocumentContent_List[InternalCatalog] = DocumentContent_List[InternalCatalog] + "\n\t<tr><td><img src=\"../" + ElementPath + "\" /></td>" + "<td>" + ElementName + "</td></tr>"
 			SVGFileList_Proceeded.append(Element)
-	DocumentContent[InternalCatalog] = HeaderString + "\n\n<table>" + DocumentContent[InternalCatalog] + "\n</table>"
+	DocumentContent[InternalCatalog] = HeaderString + "\n\n" + DocumentContent[InternalCatalog]
+	DocumentContent_List[InternalCatalog] = HeaderString + "\n\n<table>" + DocumentContent_List[InternalCatalog] + "\n</table>"
 	for Element in SVGFileList_Proceeded:
 		SVGFileList.remove(Element)
 DocumentContentManualGenerator("General", "## General", "\\", -1)
@@ -88,6 +93,7 @@ if (len(SVGFileList) > 0):
 Document = open(PathData["Document"], "wt", 1, "utf_8", "replace")
 Document.write(
 	"# <div align=\"center\">SVG Icon Library - Quick View</div>\n\n" + 
+	"<img src=\"../Eye.svg\" />View | <a href=\"./QuickView.md\"><img src=\"../Applications.svg\" />Grid</a>　<a href=\"./QuickView_List.md\"><img src=\"../ListBullet.svg\" />List</a>\n\n" + 
 	"<div align=\"right\"><strong>Last Update: </strong>" + CurrentUTCTime + " UTC</div>\n\n" + 
 	"<strong>Note:</strong> This may take a while to load completely!\n\n" + 
 	DocumentContent["General"] + "\n\n" + 
@@ -105,3 +111,24 @@ Document.write(
 	DocumentContent["Triangle"] + "\n"
 )
 Document.close()
+Document_List = open(PathData["Document_List"], "wt", 1, "utf_8", "replace")
+Document_List.write(
+	"# <div align=\"center\">SVG Icon Library - Quick View - List</div>\n\n" + 
+	"<img src=\"../Eye.svg\" />View | <a href=\"./QuickView.md\"><img src=\"../Applications.svg\" />Grid</a>　<a href=\"./QuickView_List.md\"><img src=\"../ListBullet.svg\" />List</a>\n\n" + 
+	"<div align=\"right\"><strong>Last Update: </strong>" + CurrentUTCTime + " UTC</div>\n\n" + 
+	"<strong>Note:</strong> This may take a while to load completely!\n\n" + 
+	DocumentContent_List["General"] + "\n\n" + 
+	DocumentContent_List["Align"] + "\n\n" + 
+	DocumentContent_List["Arrow"] + "\n\n" + 
+	DocumentContent_List["Chess"] + "\n\n" + 
+	DocumentContent_List["Clock"] + "\n\n" + 
+	DocumentContent_List["Dice"] + "\n\n" + 
+	DocumentContent_List["Input"] + "\n\n" + 
+	DocumentContent_List["Input_Chinese"] + "\n\n" + 
+	DocumentContent_List["Input_SimplifiedChinese"] + "\n\n" + 
+	DocumentContent_List["Minecraft"] + "\n\n" + 
+	DocumentContent_List["Navigate"] + "\n\n" + 
+	DocumentContent_List["Poker"] + "\n\n" + 
+	DocumentContent_List["Triangle"] + "\n"
+)
+Document_List.close()
