@@ -5,7 +5,7 @@
 #   Language:
 #     Python 3.8
 # ==============================================================================
-import os, pathlib, time
+import os, pathlib, sys, time
 
 # ::::::::::::::::::::::::::::::::::::::
 # Data
@@ -30,6 +30,7 @@ IgnoreList = {
 # ::::::::::::::::::::::::::::::::::::::
 print("Current UTC Time:", CurrentUTCTime)
 print("Path - Repository:", PathData["Repository"])
+print("Path - Document:", PathData["Document"])
 print("Path - Document - List:", PathData["Document_List"])
 print("Ignore - SVG File:", IgnoreList["SVGFile"])
 print("Ignore - Directory:", IgnoreList["Directory"])
@@ -93,7 +94,7 @@ if (len(SVGFileList) > 0):
 Document = open(PathData["Document"], "wt", 1, "utf_8", "replace")
 Document.write(
 	"# <div align=\"center\">SVG Icon Library - Quick View</div>\n\n" + 
-	"<img src=\"../Eye.svg\" />View | <a href=\"./QuickView.md\"><img src=\"../Applications.svg\" />Grid</a>　<a href=\"./QuickView_List.md\"><img src=\"../ListBullet.svg\" />List</a>\n\n" + 
+	"<img src=\"../Eye.svg\" width=\"16\" height=\"16\" />View | <a href=\"./QuickView.md\"><img src=\"../Grid.svg\" width=\"16\" height=\"16\" />Grid</a>　<a href=\"./QuickView_List.md\"><img src=\"../ListBullet.svg\" width=\"16\" height=\"16\" />List</a>\n\n" + 
 	"<div align=\"right\"><strong>Last Update: </strong>" + CurrentUTCTime + " UTC</div>\n\n" + 
 	"<strong>Note:</strong> This may take a while to load completely!\n\n" + 
 	DocumentContent["General"] + "\n\n" + 
@@ -114,7 +115,7 @@ Document.close()
 Document_List = open(PathData["Document_List"], "wt", 1, "utf_8", "replace")
 Document_List.write(
 	"# <div align=\"center\">SVG Icon Library - Quick View - List</div>\n\n" + 
-	"<img src=\"../Eye.svg\" />View | <a href=\"./QuickView.md\"><img src=\"../Applications.svg\" />Grid</a>　<a href=\"./QuickView_List.md\"><img src=\"../ListBullet.svg\" />List</a>\n\n" + 
+	"<img src=\"../Eye.svg\" width=\"16\" height=\"16\" />View | <a href=\"./QuickView.md\"><img src=\"../Grid.svg\" width=\"16\" height=\"16\" />Grid</a>　<a href=\"./QuickView_List.md\"><img src=\"../ListBullet.svg\" width=\"16\" height=\"16\" />List</a>\n\n" + 
 	"<div align=\"right\"><strong>Last Update: </strong>" + CurrentUTCTime + " UTC</div>\n\n" + 
 	"<strong>Note:</strong> This may take a while to load completely!\n\n" + 
 	DocumentContent_List["General"] + "\n\n" + 
@@ -132,3 +133,5 @@ Document_List.write(
 	DocumentContent_List["Triangle"] + "\n"
 )
 Document_List.close()
+print("Quick View Generator runs successful!")
+sys.exit(0)

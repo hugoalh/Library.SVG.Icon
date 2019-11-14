@@ -1,8 +1,8 @@
 # <div align="center">SVG Icon Library - Quick View - List</div>
 
-<img src="../Eye.svg" />View | <a href="./QuickView.md"><img src="../Applications.svg" />Grid</a>　<a href="./QuickView_List.md"><img src="../ListBullet.svg" />List</a>
+<img src="../Eye.svg" width="16" height="16" />View | <a href="./QuickView.md"><img src="../Grid.svg" width="16" height="16" />Grid</a>　<a href="./QuickView_List.md"><img src="../ListBullet.svg" width="16" height="16" />List</a>
 
-<div align="right"><strong>Last Update: </strong>2019-11-14 04:53 UTC</div>
+<div align="right"><strong>Last Update: </strong>2019-11-14 08:36 UTC</div>
 
 <strong>Note:</strong> This may take a while to load completely!
 
@@ -417,6 +417,8 @@
 	<tr><td><img src="../GraduationHat.svg" /></td><td>GraduationHat</td></tr>
 	<tr><td><img src="../Grapes.svg" /></td><td>Grapes</td></tr>
 	<tr><td><img src="../Gravatar.svg" /></td><td>Gravatar</td></tr>
+	<tr><td><img src="../Grid.svg" /></td><td>Grid</td></tr>
+	<tr><td><img src="../Grid_Outline.svg" /></td><td>Grid_Outline</td></tr>
 	<tr><td><img src="../Group.svg" /></td><td>Group</td></tr>
 	<tr><td><img src="../Group_Add.svg" /></td><td>Group_Add</td></tr>
 	<tr><td><img src="../Guitar.svg" /></td><td>Guitar</td></tr>
