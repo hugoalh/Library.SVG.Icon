@@ -39,7 +39,7 @@ def DetectIsIgnore(InputFileName):
 		if (InputFileName.find(Element) == 0):
 			return True
 	for Element in IgnoreList["SVGFile"]:
-		if (InputFileName.find(Element) != -1):
+		if (InputFileName.find(Element) == 0):
 			return True
 	if (InputFileName.find(".svg", len(InputFileName) - len(".svg")) == -1):
 		return True
