@@ -2,7 +2,7 @@
 
 <img src="../Eye.svg" width="16" height="16" />View | <a href="./QuickView.md"><img src="../Grid.svg" width="16" height="16" />Grid</a>　<a href="./QuickView_List.md"><img src="../ListBullet.svg" width="16" height="16" />List</a>
 
-<div align="right"><strong>Last Update: </strong>2019-11-14 08:36 UTC</div>
+<div align="right"><strong>Last Update: </strong>2019-11-15 08:51 UTC</div>
 
 <strong>Note:</strong> This may take a while to load completely!
 
@@ -39,7 +39,6 @@
 	<tr><td><img src="../Airbnb.svg" /></td><td>Airbnb</td></tr>
 	<tr><td><img src="../Airplane.svg" /></td><td>Airplane</td></tr>
 	<tr><td><img src="../AirPlay.svg" /></td><td>AirPlay</td></tr>
-	<tr><td><img src="../AirportShuttleBus.svg" /></td><td>AirportShuttleBus</td></tr>
 	<tr><td><img src="../Alarm.svg" /></td><td>Alarm</td></tr>
 	<tr><td><img src="../Alarm_Add.svg" /></td><td>Alarm_Add</td></tr>
 	<tr><td><img src="../Alarm_Off.svg" /></td><td>Alarm_Off</td></tr>
@@ -97,6 +96,7 @@
 	<tr><td><img src="../BathTub.svg" /></td><td>BathTub</td></tr>
 	<tr><td><img src="../Bat_Alt.svg" /></td><td>Bat_Alt</td></tr>
 	<tr><td><img src="../BeachUmbrella.svg" /></td><td>BeachUmbrella</td></tr>
+	<tr><td><img src="../BeatsByDre.svg" /></td><td>BeatsByDre</td></tr>
 	<tr><td><img src="../Bed.svg" /></td><td>Bed</td></tr>
 	<tr><td><img src="../Bed_Empty.svg" /></td><td>Bed_Empty</td></tr>
 	<tr><td><img src="../Bee.svg" /></td><td>Bee</td></tr>
@@ -196,6 +196,7 @@
 	<tr><td><img src="../Cloud_Done.svg" /></td><td>Cloud_Done</td></tr>
 	<tr><td><img src="../Cloud_Download.svg" /></td><td>Cloud_Download</td></tr>
 	<tr><td><img src="../Cloud_Off.svg" /></td><td>Cloud_Off</td></tr>
+	<tr><td><img src="../Cloud_Off_Outline.svg" /></td><td>Cloud_Off_Outline</td></tr>
 	<tr><td><img src="../Cloud_Outline.svg" /></td><td>Cloud_Outline</td></tr>
 	<tr><td><img src="../Cloud_Upload.svg" /></td><td>Cloud_Upload</td></tr>
 	<tr><td><img src="../CocktailGlass.svg" /></td><td>CocktailGlass</td></tr>
@@ -560,6 +561,8 @@
 	<tr><td><img src="../Markdown.svg" /></td><td>Markdown</td></tr>
 	<tr><td><img src="../MasterCard.svg" /></td><td>MasterCard</td></tr>
 	<tr><td><img src="../McAfee.svg" /></td><td>McAfee</td></tr>
+	<tr><td><img src="../MDNWebDocs.svg" /></td><td>MDNWebDocs</td></tr>
+	<tr><td><img src="../MDNWebDocs_Alt.svg" /></td><td>MDNWebDocs_Alt</td></tr>
 	<tr><td><img src="../Meat.svg" /></td><td>Meat</td></tr>
 	<tr><td><img src="../Medal.svg" /></td><td>Medal</td></tr>
 	<tr><td><img src="../MediaFire.svg" /></td><td>MediaFire</td></tr>
@@ -640,6 +643,7 @@
 	<tr><td><img src="../Notification_Active.svg" /></td><td>Notification_Active</td></tr>
 	<tr><td><img src="../Notification_Add.svg" /></td><td>Notification_Add</td></tr>
 	<tr><td><img src="../Notification_Off.svg" /></td><td>Notification_Off</td></tr>
+	<tr><td><img src="../Notification_Off_Outline.svg" /></td><td>Notification_Off_Outline</td></tr>
 	<tr><td><img src="../Notification_Outline.svg" /></td><td>Notification_Outline</td></tr>
 	<tr><td><img src="../Notification_Snooze.svg" /></td><td>Notification_Snooze</td></tr>
 	<tr><td><img src="../NPM.svg" /></td><td>NPM</td></tr>
@@ -800,6 +804,7 @@
 	<tr><td><img src="../Shower.svg" /></td><td>Shower</td></tr>
 	<tr><td><img src="../Shredder.svg" /></td><td>Shredder</td></tr>
 	<tr><td><img src="../Shuffle.svg" /></td><td>Shuffle</td></tr>
+	<tr><td><img src="../ShuttleBus.svg" /></td><td>ShuttleBus</td></tr>
 	<tr><td><img src="../SignUp.svg" /></td><td>SignUp</td></tr>
 	<tr><td><img src="../SIMCard.svg" /></td><td>SIMCard</td></tr>
 	<tr><td><img src="../SIMCard_Off.svg" /></td><td>SIMCard_Off</td></tr>
@@ -1014,7 +1019,9 @@
 	<tr><td><img src="../Volleyball.svg" /></td><td>Volleyball</td></tr>
 	<tr><td><img src="../Volume_Maximum.svg" /></td><td>Volume_Maximum</td></tr>
 	<tr><td><img src="../Volume_Minimum.svg" /></td><td>Volume_Minimum</td></tr>
+	<tr><td><img src="../Volume_Minimum_Alt.svg" /></td><td>Volume_Minimum_Alt</td></tr>
 	<tr><td><img src="../Volume_Mute.svg" /></td><td>Volume_Mute</td></tr>
+	<tr><td><img src="../Volume_Mute_Alt.svg" /></td><td>Volume_Mute_Alt</td></tr>
 	<tr><td><img src="../Volume_Off.svg" /></td><td>Volume_Off</td></tr>
 	<tr><td><img src="../Vote.svg" /></td><td>Vote</td></tr>
 	<tr><td><img src="../Vote_Alt.svg" /></td><td>Vote_Alt</td></tr>

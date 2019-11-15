@@ -1,6 +1,6 @@
 # ==============================================================================
 # SVG Icon Library - Quick View - Generator
-#   Author:
+#   Author & Contributor:
 #     hugoalh
 #   Language:
 #     Python 3.8
