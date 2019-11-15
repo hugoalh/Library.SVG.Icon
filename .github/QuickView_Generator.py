@@ -51,6 +51,7 @@ for Root, Directories, FilesName in os.walk(PathData["Repository"]):
 		if (DetectIsIgnore(FileFullPath) == False):
 			SVGFileList.append(FileFullPath)
 print("SVG File:", SVGFileList)
+SVGFileCount = str(len(SVGFileList))
 
 # ::::::::::::::::::::::::::::::::::::::
 # Program - Generate Document Content
@@ -94,8 +95,8 @@ if (len(SVGFileList) > 0):
 Document = open(PathData["Document"], "wt", 1, "utf_8", "replace")
 Document.write(
 	"# <div align=\"center\">SVG Icon Library - Quick View</div>\n\n" + 
-	"<img src=\"../Eye.svg\" width=\"16\" height=\"16\" />View | <a href=\"./QuickView.md\"><img src=\"../Grid.svg\" width=\"16\" height=\"16\" />Grid</a>　<a href=\"./QuickView_List.md\"><img src=\"../ListBullet.svg\" width=\"16\" height=\"16\" />List</a>\n\n" + 
-	"<div align=\"right\"><strong>Last Update: </strong>" + CurrentUTCTime + " UTC</div>\n\n" + 
+	"<img src=\"../Eye.svg\" width=\"16\" height=\"16\" /><strong>View</strong> | <a href=\"./QuickView.md\"><img src=\"../Grid.svg\" width=\"16\" height=\"16\" />Grid</a>　<a href=\"./QuickView_List.md\"><img src=\"../ListBullet.svg\" width=\"16\" height=\"16\" />List</a>\n\n" + 
+	"<div align=\"right\">\n\t<strong>Last Update: </strong>" + CurrentUTCTime + " UTC<br />\n\t<strong>Total: </strong>" + SVGFileCount + "</div>\n\n" + 
 	"<strong>Note:</strong> This may take a while to load completely!\n\n" + 
 	DocumentContent["General"] + "\n\n" + 
 	DocumentContent["Align"] + "\n\n" + 
@@ -115,8 +116,8 @@ Document.close()
 Document_List = open(PathData["Document_List"], "wt", 1, "utf_8", "replace")
 Document_List.write(
 	"# <div align=\"center\">SVG Icon Library - Quick View - List</div>\n\n" + 
-	"<img src=\"../Eye.svg\" width=\"16\" height=\"16\" />View | <a href=\"./QuickView.md\"><img src=\"../Grid.svg\" width=\"16\" height=\"16\" />Grid</a>　<a href=\"./QuickView_List.md\"><img src=\"../ListBullet.svg\" width=\"16\" height=\"16\" />List</a>\n\n" + 
-	"<div align=\"right\"><strong>Last Update: </strong>" + CurrentUTCTime + " UTC</div>\n\n" + 
+	"<img src=\"../Eye.svg\" width=\"16\" height=\"16\" /><strong>View</strong> | <a href=\"./QuickView.md\"><img src=\"../Grid.svg\" width=\"16\" height=\"16\" />Grid</a>　<a href=\"./QuickView_List.md\"><img src=\"../ListBullet.svg\" width=\"16\" height=\"16\" />List</a>\n\n" + 
+	"<div align=\"right\">\n\t<strong>Last Update: </strong>" + CurrentUTCTime + " UTC<br />\n\t<strong>Total: </strong>" + SVGFileCount + "</div>\n\n" + 
 	"<strong>Note:</strong> This may take a while to load completely!\n\n" + 
 	DocumentContent_List["General"] + "\n\n" + 
 	DocumentContent_List["Align"] + "\n\n" + 
