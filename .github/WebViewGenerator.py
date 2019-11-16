@@ -67,19 +67,19 @@ def DocumentContentManualGenerator(InternalCatalog, HeaderString, FindQuery, Fin
 	DocumentContent[InternalCatalog] = HeaderString + "\n<div class=\"flex\">\n" + DocumentContent[InternalCatalog] + "</div>"
 	for Element in SVGFileList_Proceeded:
 		SVGFileList.remove(Element)
-DocumentContentManualGenerator("General", "<h1>General</h1>", "\\", -1)
-DocumentContentManualGenerator("Align", "<h1>Align</h1>", "Align\\", 0)
-DocumentContentManualGenerator("Arrow", "<h1>Arrow</h1>", "Arrow\\", 0)
-DocumentContentManualGenerator("Chess", "<h1>Chess</h1>", "Chess\\", 0)
-DocumentContentManualGenerator("Clock", "<h1>Clock</h1>", "Clock\\", 0)
-DocumentContentManualGenerator("Dice", "<h1>Dice</h1>", "Dice\\", 0)
-DocumentContentManualGenerator("Input_Chinese", "<h2>Chinese</h2>", "Input\\Chinese\\", 0)
-DocumentContentManualGenerator("Input_SimplifiedChinese", "<h2>Simplified Chinese</h2>", "Input\\SimplifiedChinese\\", 0)
-DocumentContentManualGenerator("Input", "<h1>Input</h1>", "Input\\", 0)
-DocumentContentManualGenerator("Minecraft", "<h1>Minecraft</h1>", "Minecraft\\", 0)
-DocumentContentManualGenerator("Navigate", "<h1>Navigate</h1>", "Navigate\\", 0)
-DocumentContentManualGenerator("Poker", "<h1>Poker</h1>", "Poker\\", 0)
-DocumentContentManualGenerator("Triangle", "<h1>Triangle</h1>", "Triangle\\", 0)
+DocumentContentManualGenerator("General", "<h2>General</h2>", "\\", -1)
+DocumentContentManualGenerator("Align", "<h2>Align</h2>", "Align\\", 0)
+DocumentContentManualGenerator("Arrow", "<h2>Arrow</h2>", "Arrow\\", 0)
+DocumentContentManualGenerator("Chess", "<h2>Chess</h2>", "Chess\\", 0)
+DocumentContentManualGenerator("Clock", "<h2>Clock</h2>", "Clock\\", 0)
+DocumentContentManualGenerator("Dice", "<h2>Dice</h2>", "Dice\\", 0)
+DocumentContentManualGenerator("Input_Chinese", "<h3>Chinese</h3>", "Input\\Chinese\\", 0)
+DocumentContentManualGenerator("Input_SimplifiedChinese", "<h3>Simplified Chinese</h3>", "Input\\SimplifiedChinese\\", 0)
+DocumentContentManualGenerator("Input", "<h2>Input</h2>", "Input\\", 0)
+DocumentContentManualGenerator("Minecraft", "<h2>Minecraft</h2>", "Minecraft\\", 0)
+DocumentContentManualGenerator("Navigate", "<h2>Navigate</h2>", "Navigate\\", 0)
+DocumentContentManualGenerator("Poker", "<h2>Poker</h2>", "Poker\\", 0)
+DocumentContentManualGenerator("Triangle", "<h2>Triangle</h2>", "Triangle\\", 0)
 if (len(SVGFileList) > 0):
 	raise ValueError("SVG Files are not fully handled by generator, please check the pattern!")
 
@@ -114,8 +114,11 @@ DocumentContentPrepareWrite = (
 	</head>
 	<body>
 		<div id="heroheader" class="framework">
-			<span class="title">SVG Icon Library</span>
-			<span class="description"><a href="https://github.com/hugoalh">hugoalh</a>/<a href="https://github.com/hugoalh/Library.SVG.Icon">Library.SVG.Icon</a></span>
+			<span class="logo"><img src="./SVG_Alt.svg" /></span>
+			<div>
+				<span class="title">SVG Icon Library</span>
+				<span class="description"><a href="https://github.com/hugoalh">hugoalh</a>/<a href="https://github.com/hugoalh/Library.SVG.Icon">Library.SVG.Icon</a></span>
+			</div>
 		</div>
 		<div id="page" class="framework">
 			<div class="information">

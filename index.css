@@ -32,7 +32,7 @@ SVG Icon Library - Cascading Style Sheet
 	body {
 		border: 0px;
 		font-family: monospace;
-		font-size: 10pt;
+		font-size: 9pt;
 		height: 100%;
 		margin: 0px;
 		outline: 0px;
@@ -60,25 +60,38 @@ SVG Icon Library - Cascading Style Sheet
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: var(--Theme_Main_Text);
+	display: table;
 	font-size: 0pt;
 	height: var(--HeroHeader_Height);
 	left: 0px;
 	overflow: hidden;
-	text-align: left;
-	top: 0px;
-	vertical-align: middle;
-	width: 100%;
-	z-index: 2;
-	display: table;
 	padding-bottom: 0px;
 	padding-left: 2px;
 	padding-right: 2px;
 	padding-top: 0px;
-
+	text-align: center;
+	top: 0px;
+	vertical-align: middle;
+	width: 100%;
 }
+	#heroheader .logo{
+		display: table-cell;
+		height: var(--HeroHeader_Height);
+		text-align: center;
+		vertical-align: middle;
+		width: var(--HeroHeader_Height);
+	}
+	#heroheader div{
+		display: table-cell;
+		font-size: 14pt;
+		font-weight: bold;
+		height: var(--HeroHeader_Height);
+		text-align: center;
+		vertical-align: middle;
+	}
 	#heroheader .title{
 		display: table-row;
-		font-size: 14pt;
+		font-size: 16pt;
 		font-weight: bold;
 		height: calc(var(--HeroHeader_Height) * 66%);
 		text-align: center;
@@ -159,9 +172,9 @@ a {
 				box-sizing: border-box;
 				margin: 0px;
 				outline: 0px;
-				padding: 4px;
-				width: 96px;
-				height: 96px;
+				padding: 8px;
+				width: 104px;
+				height: 104px;
 				text-align: center;
 				vertical-align: middle;
 			}
@@ -200,8 +213,16 @@ a {
 
 /* Responsive */
 @media screen and (min-width: 896px) {
-	#page .content .flex span span img {
-		height: 28px;
-		width: 28px;
+	html, 
+	body {
+		font-size: 10pt;
 	}
+	#page .content .flex span {
+		height: 112px;
+		width: 112px;
+	}
+		#page .content .flex span span img {
+			height: 28px;
+			width: 28px;
+		}
 }
