@@ -141,7 +141,6 @@ a {
 			margin: 0px;
 			outline: 0px;
 			padding: 8px;
-			position: sticky;
 			width: 100%;
 		}
 		#page .content .flex {
@@ -162,7 +161,7 @@ a {
 				outline: 0px;
 				padding: 4px;
 				width: 96px;
-				height: 80px;
+				height: 96px;
 				text-align: center;
 				vertical-align: middle;
 			}
@@ -184,8 +183,8 @@ a {
 					word-wrap: break-word;
 				}
 					#page .content .flex span span img {
-						height: 28px;
-						width: 28px;
+						height: 24px;
+						width: 24px;
 					}
 
 /* Button */
@@ -201,4 +200,8 @@ a {
 
 /* Responsive */
 @media screen and (min-width: 896px) {
+	#page .content .flex span span img {
+		height: 28px;
+		width: 28px;
+	}
 }

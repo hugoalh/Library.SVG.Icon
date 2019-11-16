@@ -1,5 +1,5 @@
 # ==============================================================================
-# SVG Icon Library - Index Generator
+# SVG Icon Library - Web View Generator
 #   Author & Contributor:
 #     hugoalh
 #   Language:
@@ -64,7 +64,7 @@ def DocumentContentManualGenerator(InternalCatalog, HeaderString, FindQuery, Fin
 		if (Element.find(FindQuery) == FindResult):
 			DocumentContent[InternalCatalog] = DocumentContent[InternalCatalog] + "<span><span><img src=\"./" + ElementPath + "\" /><br />" + ElementName + "</span></span>\n"
 			SVGFileList_Proceeded.append(Element)
-	DocumentContent[InternalCatalog] = HeaderString + "\n<div class=\"flex\">\n" + DocumentContent[InternalCatalog] + "\n</div>"
+	DocumentContent[InternalCatalog] = HeaderString + "\n<div class=\"flex\">\n" + DocumentContent[InternalCatalog] + "</div>"
 	for Element in SVGFileList_Proceeded:
 		SVGFileList.remove(Element)
 DocumentContentManualGenerator("General", "<h1>General</h1>", "\\", -1)
@@ -86,44 +86,46 @@ if (len(SVGFileList) > 0):
 # ::::::::::::::::::::::::::::::::::::::
 # Program - Write Document
 # ::::::::::::::::::::::::::::::::::::::
-DocumentContentPrepareWrite = ("<!DOCTYPE html>\n" + 
-	"<html>\n" + 
-	"<head>\n" + 
-	"<!-- Character Encode --->\n" + 
-	"<meta charset=\"UTF-8\" />\n" + 
-	"<!-- Security --->\n" + 
-	"<meta name=\"referrer\" content=\"origin-when-cross-origin\" />\n" + 
-	"<meta name=\"robots\" content=\"index, follow\" />\n" + 
-	"<!-- Information --->\n" + 
-	"<meta name=\"application-name\" content=\"SVG Icon Library\" />\n" + 
-	"<meta name=\"apple-mobile-web-app-title\" content=\"SVG Icon Library\" />\n" + 
-	"<meta name=\"title\" content=\"SVG Icon Library\" />\n" + 
-	"<meta name=\"author\" content=\"hugoalh\" />\n" + 
-	"<meta name=\"description\" content=\"A SVG icon library.\" />\n" + 
-	"<meta name=\"keywords\" content=\"library svg svg-icon svg-icons\" />\n" + 
-	"<!-- Render --->\n" + 
-	"<meta dir=\"auto\" />\n" + 
-	"<meta autocapitalize=\"off\" />\n" + 
-	"<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=no\" />\n" + 
-	"<meta name=\"mobile-web-app-capable\" content=\"yes\" />\n" + 
-	"<meta name=\"apple-mobile-web-app-capable\" content=\"yes\" />\n" + 
-	"<!-- Style --->\n" + 
-	"<link rel=\"stylesheet\" href=\"./index.css\" />\n" + 
-	"<title>SVG Icon Library</title>\n" + 
-	"</head>\n" + 
-	"<body>\n" + 
-	"<div id=\"heroheader\" class=\"framework\">\n" + 
-	"<span class=\"title\">SVG Icon Library</span>\n" + 
-	"<span class=\"description\"><a href=\"https://github.com/hugoalh\">hugoalh</a>/<a href=\"https://github.com/hugoalh/Library.SVG.Icon\">Library.SVG.Icon</a> - A SVG icon library.</span>\n" + 
-	"</div>\n" + 
-	"<div id=\"page\" class=\"framework\">\n" + 
-	"<div class=\"information\">\n" + 
-	"<strong>Last Update: </strong>" + CurrentUTCTime + " UTC<br />\n" + 
-	"<strong>Total: </strong>" + SVGFileCount + "<br />\n" + 
-	"<strong>Note:</strong> This may take a while to load completely!\n" + 
-	"</div>\n" + 
-	"<div class=\"content\">\n" + 
-	DocumentContent["General"] + "\n" + 
+DocumentContentPrepareWrite = (
+"""<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Character Encode --->
+		<meta charset="UTF-8" />
+		<!-- Security --->
+		<meta name="referrer" content="origin-when-cross-origin" />
+		<meta name="robots" content="index, follow" />
+		<!-- Information --->
+		<meta name="application-name" content="SVG Icon Library" />
+		<meta name="apple-mobile-web-app-title" content="SVG Icon Library" />
+		<meta name="title" content="SVG Icon Library" />
+		<meta name="author" content="hugoalh" />
+		<meta name="description" content="A SVG icon library." />
+		<meta name="keywords" content="library svg svg-icon svg-icons" />
+		<!-- Render --->
+		<meta dir="auto" />
+		<meta autocapitalize="off" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+		<meta name="mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+			<!-- Style --->
+			<link rel="stylesheet" href="./index.css" />
+		<title>SVG Icon Library</title>
+	</head>
+	<body>
+		<div id="heroheader" class="framework">
+			<span class="title">SVG Icon Library</span>
+			<span class="description"><a href="https://github.com/hugoalh">hugoalh</a>/<a href="https://github.com/hugoalh/Library.SVG.Icon">Library.SVG.Icon</a></span>
+		</div>
+		<div id="page" class="framework">
+			<div class="information">
+				<strong>Last Update: </strong>""" + CurrentUTCTime + """ UTC<br />
+				<strong>Total: </strong>""" + SVGFileCount + """<br />
+				<strong>License: </strong><a href="./LICENSE.md">CC0 1.0</a><br />
+				<strong>Note:</strong> This may take a while to load completely!
+			</div>
+			<div class="content">
+""" + DocumentContent["General"] + "\n" + 
 	DocumentContent["Align"] + "\n" + 
 	DocumentContent["Arrow"] + "\n" + 
 	DocumentContent["Chess"] + "\n" + 
@@ -135,14 +137,15 @@ DocumentContentPrepareWrite = ("<!DOCTYPE html>\n" +
 	DocumentContent["Minecraft"] + "\n" + 
 	DocumentContent["Navigate"] + "\n" + 
 	DocumentContent["Poker"] + "\n" + 
-	DocumentContent["Triangle"] + "\n" + 
-	"</div>\n" + 
-	"</div>\n" + 
-	"</body>\n" + 
-	"</html>\n"
+	DocumentContent["Triangle"] + """
+			</div>
+		</div>
+	</body>
+</html>
+"""
 )
 Document = open(PathData["Document"], "wt", 1, "utf_8", "replace")
 Document.write(DocumentContentPrepareWrite)
 Document.close()
-print("Index Generator runs successful!")
+print("Web View Generator runs successful!")
 sys.exit(0)
