@@ -3,8 +3,8 @@
 <img src="../Eye.svg" width="16" height="16" /><strong>View</strong> | <a href="./QuickView.md"><img src="../Grid.svg" width="16" height="16" />Grid</a>　<a href="./QuickView_List.md"><img src="../ListBullet.svg" width="16" height="16" />List</a>
 
 <div align="right">
-	<strong>Last Update: </strong>2019-11-15 09:37 UTC<br />
-	<strong>Total: </strong>1179</div>
+	<strong>Last Update: </strong>2019-11-16 03:27 UTC<br />
+	<strong>Total: </strong>1222</div>
 
 <strong>Note:</strong> This may take a while to load completely!
 
@@ -12,8 +12,10 @@
 
 <table>
 	<tr><td><img src="../Abacus.svg" /></td><td>Abacus</td></tr>
+	<tr><td><img src="../Abstract.svg" /></td><td>Abstract</td></tr>
 	<tr><td><img src="../Accessibility.svg" /></td><td>Accessibility</td></tr>
 	<tr><td><img src="../Account.svg" /></td><td>Account</td></tr>
+	<tr><td><img src="../ACM.svg" /></td><td>ACM</td></tr>
 	<tr><td><img src="../Acorn.svg" /></td><td>Acorn</td></tr>
 	<tr><td><img src="../Add.svg" /></td><td>Add</td></tr>
 	<tr><td><img src="../AdobeAcrobat.svg" /></td><td>AdobeAcrobat</td></tr>
@@ -21,6 +23,7 @@
 	<tr><td><img src="../AdobeAfterEffects_Outline.svg" /></td><td>AdobeAfterEffects_Outline</td></tr>
 	<tr><td><img src="../AdobeAudition.svg" /></td><td>AdobeAudition</td></tr>
 	<tr><td><img src="../AdobeAudition_Outline.svg" /></td><td>AdobeAudition_Outline</td></tr>
+	<tr><td><img src="../AdobeCreativeCloud.svg" /></td><td>AdobeCreativeCloud</td></tr>
 	<tr><td><img src="../AdobeDreamweaver.svg" /></td><td>AdobeDreamweaver</td></tr>
 	<tr><td><img src="../AdobeDreamweaver_Outline.svg" /></td><td>AdobeDreamweaver_Outline</td></tr>
 	<tr><td><img src="../AdobeIllustrator.svg" /></td><td>AdobeIllustrator</td></tr>
@@ -51,20 +54,33 @@
 	<tr><td><img src="../Amazon.svg" /></td><td>Amazon</td></tr>
 	<tr><td><img src="../Ambulance.svg" /></td><td>Ambulance</td></tr>
 	<tr><td><img src="../AMD.svg" /></td><td>AMD</td></tr>
+	<tr><td><img src="../Anaconda.svg" /></td><td>Anaconda</td></tr>
+	<tr><td><img src="../Analogue.svg" /></td><td>Analogue</td></tr>
 	<tr><td><img src="../Analytics.svg" /></td><td>Analytics</td></tr>
 	<tr><td><img src="../Anchor.svg" /></td><td>Anchor</td></tr>
 	<tr><td><img src="../Anger.svg" /></td><td>Anger</td></tr>
 	<tr><td><img src="../AngularJS.svg" /></td><td>AngularJS</td></tr>
 	<tr><td><img src="../AngularUniversal.svg" /></td><td>AngularUniversal</td></tr>
 	<tr><td><img src="../Announcement.svg" /></td><td>Announcement</td></tr>
+	<tr><td><img src="../Ansible.svg" /></td><td>Ansible</td></tr>
+	<tr><td><img src="../Apache.svg" /></td><td>Apache</td></tr>
 	<tr><td><img src="../Apartment.svg" /></td><td>Apartment</td></tr>
 	<tr><td><img src="../Apple.svg" /></td><td>Apple</td></tr>
 	<tr><td><img src="../AppleInc.svg" /></td><td>AppleInc</td></tr>
+	<tr><td><img src="../AppleMusic.svg" /></td><td>AppleMusic</td></tr>
+	<tr><td><img src="../AppleMusic_Alt.svg" /></td><td>AppleMusic_Alt</td></tr>
+	<tr><td><img src="../ApplePodcasts.svg" /></td><td>ApplePodcasts</td></tr>
+	<tr><td><img src="../ApplePodcasts_Alt.svg" /></td><td>ApplePodcasts_Alt</td></tr>
 	<tr><td><img src="../Applications.svg" /></td><td>Applications</td></tr>
 	<tr><td><img src="../Applications_Alt.svg" /></td><td>Applications_Alt</td></tr>
+	<tr><td><img src="../AppVeyor.svg" /></td><td>AppVeyor</td></tr>
+	<tr><td><img src="../ARAL.svg" /></td><td>ARAL</td></tr>
 	<tr><td><img src="../Archive.svg" /></td><td>Archive</td></tr>
+	<tr><td><img src="../ArchLinux.svg" /></td><td>ArchLinux</td></tr>
 	<tr><td><img src="../Archway.svg" /></td><td>Archway</td></tr>
 	<tr><td><img src="../Arduino.svg" /></td><td>Arduino</td></tr>
+	<tr><td><img src="../ArtStation.svg" /></td><td>ArtStation</td></tr>
+	<tr><td><img src="../Asana.svg" /></td><td>Asana</td></tr>
 	<tr><td><img src="../Assignment.svg" /></td><td>Assignment</td></tr>
 	<tr><td><img src="../Assignment_Late.svg" /></td><td>Assignment_Late</td></tr>
 	<tr><td><img src="../Assignment_TurnIn.svg" /></td><td>Assignment_TurnIn</td></tr>
@@ -148,6 +164,8 @@
 	<tr><td><img src="../BusinessBag_Outline.svg" /></td><td>BusinessBag_Outline</td></tr>
 	<tr><td><img src="../BusStop.svg" /></td><td>BusStop</td></tr>
 	<tr><td><img src="../Bus_Alt.svg" /></td><td>Bus_Alt</td></tr>
+	<tr><td><img src="../BuyMeACoffee.svg" /></td><td>BuyMeACoffee</td></tr>
+	<tr><td><img src="../BuzzFeed.svg" /></td><td>BuzzFeed</td></tr>
 	<tr><td><img src="../CableCar.svg" /></td><td>CableCar</td></tr>
 	<tr><td><img src="../Cache.svg" /></td><td>Cache</td></tr>
 	<tr><td><img src="../Cake.svg" /></td><td>Cake</td></tr>
@@ -184,6 +202,7 @@
 	<tr><td><img src="../ChocolateBar.svg" /></td><td>ChocolateBar</td></tr>
 	<tr><td><img src="../Chopsticks.svg" /></td><td>Chopsticks</td></tr>
 	<tr><td><img src="../Church.svg" /></td><td>Church</td></tr>
+	<tr><td><img src="../CircleCI.svg" /></td><td>CircleCI</td></tr>
 	<tr><td><img src="../City.svg" /></td><td>City</td></tr>
 	<tr><td><img src="../Clapperboard.svg" /></td><td>Clapperboard</td></tr>
 	<tr><td><img src="../ClearAll.svg" /></td><td>ClearAll</td></tr>
@@ -388,6 +407,7 @@
 	<tr><td><img src="../Gift.svg" /></td><td>Gift</td></tr>
 	<tr><td><img src="../GiftCard.svg" /></td><td>GiftCard</td></tr>
 	<tr><td><img src="../Gifts.svg" /></td><td>Gifts</td></tr>
+	<tr><td><img src="../GIMP.svg" /></td><td>GIMP</td></tr>
 	<tr><td><img src="../GingerbreadMan.svg" /></td><td>GingerbreadMan</td></tr>
 	<tr><td><img src="../Git.svg" /></td><td>Git</td></tr>
 	<tr><td><img src="../GitHub.svg" /></td><td>GitHub</td></tr>
@@ -413,6 +433,7 @@
 	<tr><td><img src="../GooglePlay.svg" /></td><td>GooglePlay</td></tr>
 	<tr><td><img src="../GooglePodcasts.svg" /></td><td>GooglePodcasts</td></tr>
 	<tr><td><img src="../GoogleScholar.svg" /></td><td>GoogleScholar</td></tr>
+	<tr><td><img src="../GoogleStadia.svg" /></td><td>GoogleStadia</td></tr>
 	<tr><td><img src="../GoogleTranslate.svg" /></td><td>GoogleTranslate</td></tr>
 	<tr><td><img src="../GoProgramming.svg" /></td><td>GoProgramming</td></tr>
 	<tr><td><img src="../Gopuram.svg" /></td><td>Gopuram</td></tr>
@@ -472,6 +493,7 @@
 	<tr><td><img src="../Huawei.svg" /></td><td>Huawei</td></tr>
 	<tr><td><img src="../Hulu.svg" /></td><td>Hulu</td></tr>
 	<tr><td><img src="../HumbleBundle.svg" /></td><td>HumbleBundle</td></tr>
+	<tr><td><img src="../IBM.svg" /></td><td>IBM</td></tr>
 	<tr><td><img src="../Icecream.svg" /></td><td>Icecream</td></tr>
 	<tr><td><img src="../IDBadge.svg" /></td><td>IDBadge</td></tr>
 	<tr><td><img src="../IDCard.svg" /></td><td>IDCard</td></tr>
@@ -492,6 +514,7 @@
 	<tr><td><img src="../Instagram.svg" /></td><td>Instagram</td></tr>
 	<tr><td><img src="../Instagram_Alt.svg" /></td><td>Instagram_Alt</td></tr>
 	<tr><td><img src="../Intel.svg" /></td><td>Intel</td></tr>
+	<tr><td><img src="../Intercom.svg" /></td><td>Intercom</td></tr>
 	<tr><td><img src="../iPad.svg" /></td><td>iPad</td></tr>
 	<tr><td><img src="../Iridescent.svg" /></td><td>Iridescent</td></tr>
 	<tr><td><img src="../Italic.svg" /></td><td>Italic</td></tr>
@@ -502,6 +525,8 @@
 	<tr><td><img src="../Jekyll.svg" /></td><td>Jekyll</td></tr>
 	<tr><td><img src="../Joystick.svg" /></td><td>Joystick</td></tr>
 	<tr><td><img src="../jQuery.svg" /></td><td>jQuery</td></tr>
+	<tr><td><img src="../JSFiddle.svg" /></td><td>JSFiddle</td></tr>
+	<tr><td><img src="../JSON.svg" /></td><td>JSON</td></tr>
 	<tr><td><img src="../Jug.svg" /></td><td>Jug</td></tr>
 	<tr><td><img src="../Key.svg" /></td><td>Key</td></tr>
 	<tr><td><img src="../Keyboard.svg" /></td><td>Keyboard</td></tr>
@@ -623,12 +648,16 @@
 	<tr><td><img src="../Mouse.svg" /></td><td>Mouse</td></tr>
 	<tr><td><img src="../Movie.svg" /></td><td>Movie</td></tr>
 	<tr><td><img src="../Moyai.svg" /></td><td>Moyai</td></tr>
+	<tr><td><img src="../Mozilla.svg" /></td><td>Mozilla</td></tr>
 	<tr><td><img src="../MozillaFirefox.svg" /></td><td>MozillaFirefox</td></tr>
+	<tr><td><img src="../Mozilla_Alt.svg" /></td><td>Mozilla_Alt</td></tr>
 	<tr><td><img src="../Museum.svg" /></td><td>Museum</td></tr>
 	<tr><td><img src="../Mushroom.svg" /></td><td>Mushroom</td></tr>
 	<tr><td><img src="../MusicAlbum.svg" /></td><td>MusicAlbum</td></tr>
 	<tr><td><img src="../MusicalNote.svg" /></td><td>MusicalNote</td></tr>
 	<tr><td><img src="../MusicalNote_Alt.svg" /></td><td>MusicalNote_Alt</td></tr>
+	<tr><td><img src="../MXLinux.svg" /></td><td>MXLinux</td></tr>
+	<tr><td><img src="../MXLinux_Alt.svg" /></td><td>MXLinux_Alt</td></tr>
 	<tr><td><img src="../MySQL.svg" /></td><td>MySQL</td></tr>
 	<tr><td><img src="../Narwhal.svg" /></td><td>Narwhal</td></tr>
 	<tr><td><img src="../NativeScript.svg" /></td><td>NativeScript</td></tr>
@@ -715,6 +744,7 @@
 	<tr><td><img src="../Printer_Disable.svg" /></td><td>Printer_Disable</td></tr>
 	<tr><td><img src="../Pumpkin.svg" /></td><td>Pumpkin</td></tr>
 	<tr><td><img src="../Puzzle.svg" /></td><td>Puzzle</td></tr>
+	<tr><td><img src="../PyPI.svg" /></td><td>PyPI</td></tr>
 	<tr><td><img src="../Python.svg" /></td><td>Python</td></tr>
 	<tr><td><img src="../QuestionMark.svg" /></td><td>QuestionMark</td></tr>
 	<tr><td><img src="../Quote.svg" /></td><td>Quote</td></tr>
@@ -732,6 +762,7 @@
 	<tr><td><img src="../RecreationalVehicle.svg" /></td><td>RecreationalVehicle</td></tr>
 	<tr><td><img src="../Reddit.svg" /></td><td>Reddit</td></tr>
 	<tr><td><img src="../Reddit_Alt.svg" /></td><td>Reddit_Alt</td></tr>
+	<tr><td><img src="../RedHat.svg" /></td><td>RedHat</td></tr>
 	<tr><td><img src="../Redo.svg" /></td><td>Redo</td></tr>
 	<tr><td><img src="../Refresh.svg" /></td><td>Refresh</td></tr>
 	<tr><td><img src="../Remove.svg" /></td><td>Remove</td></tr>
@@ -760,6 +791,8 @@
 	<tr><td><img src="../Rowing.svg" /></td><td>Rowing</td></tr>
 	<tr><td><img src="../RSS.svg" /></td><td>RSS</td></tr>
 	<tr><td><img src="../RubbishBin.svg" /></td><td>RubbishBin</td></tr>
+	<tr><td><img src="../RubyGems.svg" /></td><td>RubyGems</td></tr>
+	<tr><td><img src="../RubyGems_Alt.svg" /></td><td>RubyGems_Alt</td></tr>
 	<tr><td><img src="../RubyProgramming.svg" /></td><td>RubyProgramming</td></tr>
 	<tr><td><img src="../Rugby.svg" /></td><td>Rugby</td></tr>
 	<tr><td><img src="../Ruler.svg" /></td><td>Ruler</td></tr>
@@ -892,6 +925,8 @@
 	<tr><td><img src="../Sun_Half.svg" /></td><td>Sun_Half</td></tr>
 	<tr><td><img src="../Sun_Outline.svg" /></td><td>Sun_Outline</td></tr>
 	<tr><td><img src="../Sushi.svg" /></td><td>Sushi</td></tr>
+	<tr><td><img src="../SVG.svg" /></td><td>SVG</td></tr>
+	<tr><td><img src="../SVG_Alt.svg" /></td><td>SVG_Alt</td></tr>
 	<tr><td><img src="../Swap_Horizontal.svg" /></td><td>Swap_Horizontal</td></tr>
 	<tr><td><img src="../Swap_Vertical.svg" /></td><td>Swap_Vertical</td></tr>
 	<tr><td><img src="../Swift.svg" /></td><td>Swift</td></tr>
@@ -1243,11 +1278,19 @@
 
 <table>
 	<tr><td><img src="../Triangle/Down_60.svg" /></td><td>Triangle/Down_60</td></tr>
+	<tr><td><img src="../Triangle/Down_60_Outline.svg" /></td><td>Triangle/Down_60_Outline</td></tr>
 	<tr><td><img src="../Triangle/Down_90.svg" /></td><td>Triangle/Down_90</td></tr>
+	<tr><td><img src="../Triangle/Down_90_Outline.svg" /></td><td>Triangle/Down_90_Outline</td></tr>
 	<tr><td><img src="../Triangle/Left_60.svg" /></td><td>Triangle/Left_60</td></tr>
+	<tr><td><img src="../Triangle/Left_60_Outline.svg" /></td><td>Triangle/Left_60_Outline</td></tr>
 	<tr><td><img src="../Triangle/Left_90.svg" /></td><td>Triangle/Left_90</td></tr>
+	<tr><td><img src="../Triangle/Left_90_Outline.svg" /></td><td>Triangle/Left_90_Outline</td></tr>
 	<tr><td><img src="../Triangle/Right_60.svg" /></td><td>Triangle/Right_60</td></tr>
+	<tr><td><img src="../Triangle/Right_60_Outline.svg" /></td><td>Triangle/Right_60_Outline</td></tr>
 	<tr><td><img src="../Triangle/Right_90.svg" /></td><td>Triangle/Right_90</td></tr>
+	<tr><td><img src="../Triangle/Right_90_Outline.svg" /></td><td>Triangle/Right_90_Outline</td></tr>
 	<tr><td><img src="../Triangle/Up_60.svg" /></td><td>Triangle/Up_60</td></tr>
+	<tr><td><img src="../Triangle/Up_60_Outline.svg" /></td><td>Triangle/Up_60_Outline</td></tr>
 	<tr><td><img src="../Triangle/Up_90.svg" /></td><td>Triangle/Up_90</td></tr>
+	<tr><td><img src="../Triangle/Up_90_Outline.svg" /></td><td>Triangle/Up_90_Outline</td></tr>
 </table>
