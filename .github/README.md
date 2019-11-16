@@ -26,4 +26,4 @@
 
 A SVG icon library.
 
-<a href="./QuickView.md">Quick View.</a>
+<a href="https://hugoalh.github.io/Library.SVG.Icon">Quick View.</a>

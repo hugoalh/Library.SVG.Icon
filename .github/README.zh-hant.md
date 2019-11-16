@@ -26,4 +26,4 @@
 
 一個SVG圖示資源庫。
 
-<a href="./QuickView.md">快速瀏覽（英文）。</a>
+<a href="https://hugoalh.github.io/Library.SVG.Icon">快速瀏覽（英文）。</a>
