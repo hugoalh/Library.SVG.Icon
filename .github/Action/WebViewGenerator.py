@@ -62,7 +62,7 @@ def DocumentContentManualGenerator(InternalCatalog, HeaderString, FindQuery, Fin
 		ElementPath = Element.replace("\\", "/")
 		ElementName = ElementPath.replace(".svg", "")
 		if (Element.find(FindQuery) == FindResult):
-			DocumentContent[InternalCatalog] = DocumentContent[InternalCatalog] + "<span><a href=\"./" + ElementPath + "\"><img src=\"./" + ElementPath + "\" /><br />" + ElementName + "</a></span>\n"
+			DocumentContent[InternalCatalog] = DocumentContent[InternalCatalog] + "<span><span><a href=\"./" + ElementPath + "\"><img src=\"./" + ElementPath + "\" /></a><br />" + ElementName + "</span></span>\n"
 			SVGFileList_Proceeded.append(Element)
 	DocumentContent[InternalCatalog] = HeaderString + "\n<div class=\"flex\">\n" + DocumentContent[InternalCatalog] + "</div>"
 	for Element in SVGFileList_Proceeded:
@@ -114,10 +114,12 @@ DocumentContentPrepareWrite = (
 	</head>
 	<body>
 		<div id="heroheader" class="framework">
-			<span class="logo"><img src="./SVG_Alt.svg" /></span>
 			<div>
-				<span class="title">SVG Icon Library</span>
-				<span class="description"><a href="https://github.com/hugoalh">hugoalh</a>/<a href="https://github.com/hugoalh/Library.SVG.Icon">Library.SVG.Icon</a></span>
+				<span class="logo"><img src="./SVG_Alt.svg" /></span>
+				<div>
+					<span class="title">SVG Icon Library</span>
+					<span class="description"><a href="https://github.com/hugoalh">hugoalh</a>/<a href="https://github.com/hugoalh/Library.SVG.Icon">Library.SVG.Icon</a></span>
+				</div>
 			</div>
 		</div>
 		<div id="page" class="framework">

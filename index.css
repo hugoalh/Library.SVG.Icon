@@ -60,9 +60,10 @@ SVG Icon Library - Cascading Style Sheet
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: var(--Theme_Main_Text);
-	display: table;
+	display: flex;
 	font-size: 0pt;
 	height: var(--HeroHeader_Height);
+	justify-content: center;
 	left: 0px;
 	overflow: hidden;
 	padding-bottom: 0px;
@@ -83,8 +84,6 @@ SVG Icon Library - Cascading Style Sheet
 	}
 	#heroheader div{
 		display: table-cell;
-		font-size: 14pt;
-		font-weight: bold;
 		height: var(--HeroHeader_Height);
 		text-align: center;
 		vertical-align: middle;
@@ -147,6 +146,7 @@ a {
 		#page .content h4,
 		#page .content h5,
 		#page .content h6 {
+			background-color: var(--Theme_Light_BackgroundColour);
 			border: 0px;
 			border-bottom: 1px solid var(--Theme_Light_Text);
 			box-sizing: border-box;
@@ -154,7 +154,10 @@ a {
 			margin: 0px;
 			outline: 0px;
 			padding: 8px;
+			position: sticky;
+			top: 0px;
 			width: 100%;
+			z-index: 1;
 		}
 		#page .content .flex {
 			border: 0px;
@@ -172,22 +175,24 @@ a {
 				box-sizing: border-box;
 				margin: 0px;
 				outline: 0px;
-				padding: 0px;
+				padding: 8px;
 				width: 104px;
 				height: 104px;
 				text-align: center;
 				vertical-align: middle;
+				word-break: break-all;
+				word-wrap: break-word;
 			}
 			#page .content .flex > span:hover {
 				background-color: var(--Theme_Main_BackgroundColour);
 			}
-				#page .content .flex span a {
+				#page .content .flex span span {
 					display: table-cell;
 					border: 0px;
 					box-sizing: border-box;
 					margin: 0px;
 					outline: 0px;
-					padding: 8px;
+					padding: 0px;
 					width: 100%;
 					height: 100%;
 					text-align: center;
@@ -195,7 +200,7 @@ a {
 					word-break: break-all;
 					word-wrap: break-word;
 				}
-					#page .content .flex span a img {
+					#page .content .flex span span a img {
 						height: 24px;
 						width: 24px;
 					}
