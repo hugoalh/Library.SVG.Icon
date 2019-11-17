@@ -54,15 +54,18 @@ print("SVG File:", SVGFileList)
 ValidFile = open(PathData["Template"], "rt")
 ValidPattern = ValidFile.read().replace("\n</svg>\n", "")
 ValidFile.close()
-InvalidSVGFileList = []
+InvalidSVGFileList = {}
 for File in SVGFileList:
 	ThatFile = open(os.path.join(PathData["Repository"], File), "rt")
 	ThatFileContent = ThatFile.read()
 	ThatFile.close()
+	InvalidSVGFileList[File] = []
 	if (ThatFileContent.find(ValidPattern) != 0):
-		InvalidSVGFileList.append(File)
-	elif (ThatFileContent.find("<g>") != -1):
-		InvalidSVGFileList.append(File)
+		InvalidSVGFileList[File].append("Invalid Pattern!")
+	if (ThatFileContent.find("<g>") != -1):
+		InvalidSVGFileList[File].append("Contain Group!")
+	if (len(InvalidSVGFileList[File]) == 0):
+		del InvalidSVGFileList[File]
 if (len(InvalidSVGFileList) > 0):
 	print("Invalid SVG File:", InvalidSVGFileList)
 else:
