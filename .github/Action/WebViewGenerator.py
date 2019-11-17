@@ -1,5 +1,5 @@
 # ==============================================================================
-# SVG Icon Library - Web View Generator
+# SVG Icon Library - Action - Web View Generator
 #   Author & Contributor:
 #     hugoalh
 #   Language:
@@ -12,7 +12,7 @@ import os, pathlib, sys, time
 # ::::::::::::::::::::::::::::::::::::::
 CurrentUTCTime = time.strftime("%Y-%m-%d %H:%M", time.gmtime())
 PathData = {
-	"Repository": str(pathlib.Path(os.path.abspath(__file__)).parent.parent)
+	"Repository": str(pathlib.Path(os.path.abspath(__file__)).parent.parent.parent)
 }
 PathData["Document"] = os.path.join(PathData["Repository"], "index.html")
 IgnoreList = {
@@ -25,7 +25,7 @@ IgnoreList = {
 }
 
 # ::::::::::::::::::::::::::::::::::::::
-# Program - Listing Data & File
+# Program - List Data & Get Data
 # ::::::::::::::::::::::::::::::::::::::
 print("Current UTC Time:", CurrentUTCTime)
 print("Path - Repository:", PathData["Repository"])
