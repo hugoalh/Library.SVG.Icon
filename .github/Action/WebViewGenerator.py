@@ -62,7 +62,7 @@ def DocumentContentManualGenerator(InternalCatalog, HeaderString, FindQuery, Fin
 		ElementPath = Element.replace("\\", "/")
 		ElementName = ElementPath.replace(".svg", "")
 		if (Element.find(FindQuery) == FindResult):
-			DocumentContent[InternalCatalog] = DocumentContent[InternalCatalog] + "<span><span><img src=\"./" + ElementPath + "\" /><br />" + ElementName + "</span></span>\n"
+			DocumentContent[InternalCatalog] = DocumentContent[InternalCatalog] + "<span><a href=\"./" + ElementPath + "\"><img src=\"./" + ElementPath + "\" /><br />" + ElementName + "</a></span>\n"
 			SVGFileList_Proceeded.append(Element)
 	DocumentContent[InternalCatalog] = HeaderString + "\n<div class=\"flex\">\n" + DocumentContent[InternalCatalog] + "</div>"
 	for Element in SVGFileList_Proceeded:
