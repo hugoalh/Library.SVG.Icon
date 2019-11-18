@@ -17,7 +17,7 @@ PathData = {
 PathData["Document"] = os.path.join(PathData["Repository"], "index.html")
 IgnoreList = {
 	"SVGFile": [
-		"_Template.svg"
+		"_Template.svg", "_Template_Disable.svg"
 	],
 	"Directory": [
 		".git", ".github", ".vscode"

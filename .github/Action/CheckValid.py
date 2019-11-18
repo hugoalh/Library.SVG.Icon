@@ -16,7 +16,7 @@ PathData = {
 PathData["Template"] = os.path.join(PathData["Repository"], "_Template.svg")
 IgnoreList = {
 	"SVGFile": [
-		"_Template.svg"
+		"_Template.svg", "_Template_Disable.svg"
 	],
 	"Directory": [
 		".git", ".github", ".vscode"
@@ -70,6 +70,8 @@ for File in SVGFileList:
 		InvalidSVGFileList[File].append("Invalid Pattern!")
 	if (ThatFileContent.find("<g>") != -1):
 		InvalidSVGFileList[File].append("Contain Group!")
+	if (ThatFileContent.find("fill=\"#040000\"") != -1):
+		InvalidSVGFileList[File].append("Adobe Illustrator CMYK!")
 	if (len(InvalidSVGFileList[File]) == 0):
 		del InvalidSVGFileList[File]
 if (len(InvalidSVGFileList) > 0):
