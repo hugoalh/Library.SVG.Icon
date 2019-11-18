@@ -22,6 +22,7 @@ IgnoreList = {
 		".git", ".github", ".vscode"
 	]
 }
+AdobeIllustratorXML = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n"
 
 # ::::::::::::::::::::::::::::::::::::::
 # Program - List Data & Get Data
@@ -60,6 +61,11 @@ for File in SVGFileList:
 	ThatFileContent = ThatFile.read()
 	ThatFile.close()
 	InvalidSVGFileList[File] = []
+	if (ThatFileContent.find(AdobeIllustratorXML) == 0):
+		ThatFileContent = ThatFileContent.replace(AdobeIllustratorXML, "")
+		ReopenThatFile = open(os.path.join(PathData["Repository"], File), "wt", 1, "utf_8", "replace")
+		ReopenThatFile.write(ThatFileContent)
+		ReopenThatFile.close()
 	if (ThatFileContent.find(ValidPattern) != 0):
 		InvalidSVGFileList[File].append("Invalid Pattern!")
 	if (ThatFileContent.find("<g>") != -1):
