@@ -53,7 +53,8 @@ print("SVG File:", SVGFileList)
 # Program - Find Invalid SVG
 # ::::::::::::::::::::::::::::::::::::::
 ValidFile = open(PathData["Template"], "rt")
-ValidPattern = ValidFile.read().replace("\n</svg>\n", "")
+ValidFileContent = ValidFile.read()
+ValidPattern = ValidFileContent.replace("\n</svg>\n", "")
 ValidFile.close()
 InvalidSVGFileList = {}
 for File in SVGFileList:
@@ -66,6 +67,8 @@ for File in SVGFileList:
 		ReopenThatFile = open(os.path.join(PathData["Repository"], File), "wt", 1, "utf_8", "replace")
 		ReopenThatFile.write(ThatFileContent)
 		ReopenThatFile.close()
+	if (ThatFileContent == ValidFileContent):
+		InvalidSVGFileList[File].append("Null!")
 	if (ThatFileContent.find(ValidPattern) != 0):
 		InvalidSVGFileList[File].append("Invalid Pattern!")
 	if (ThatFileContent.find("<g>") != -1):
