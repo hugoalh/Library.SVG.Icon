@@ -79,6 +79,7 @@ DocumentContentManualGenerator("Input", "<h2>Input</h2>", "Input\\", 0)
 DocumentContentManualGenerator("Minecraft", "<h2>Minecraft</h2>", "Minecraft\\", 0)
 DocumentContentManualGenerator("Navigate", "<h2>Navigate</h2>", "Navigate\\", 0)
 DocumentContentManualGenerator("Poker", "<h2>Poker</h2>", "Poker\\", 0)
+DocumentContentManualGenerator("Roblox", "<h2>Roblox</h2>", "Roblox\\", 0)
 DocumentContentManualGenerator("Triangle", "<h2>Triangle</h2>", "Triangle\\", 0)
 if (len(SVGFileList) > 0):
 	raise ValueError("SVG Files are not fully handled by generator, please check the pattern!")
@@ -124,10 +125,16 @@ DocumentContentPrepareWrite = (
 		</div>
 		<div id="page" class="framework">
 			<div class="information">
-				<strong>Last Update: </strong>""" + CurrentUTCTime + """ UTC<br />
-				<strong>Total: </strong>""" + SVGFileCount + """<br />
-				<strong>License: </strong><a href="./LICENSE.md">CC0 1.0</a><br />
-				<strong>Note:</strong> This may take a while to load completely!
+				<p><strong>Last Update: </strong>""" + CurrentUTCTime + """ UTC</p>
+				<p><strong>Total: </strong>""" + SVGFileCount + """</p>
+				<p><strong>License: </strong><a href="./LICENSE.md">CC0 1.0</a></p>
+				<p>
+					<strong>Note:</strong><br />
+					<ul>
+						<li>This may take a while to load completely!</li>
+						<li>Use "Find In Page" function to search icons!</li>
+					</ul>
+				</p>
 			</div>
 			<div class="content">
 """ + DocumentContent["General"] + "\n" + 
@@ -142,6 +149,7 @@ DocumentContentPrepareWrite = (
 	DocumentContent["Minecraft"] + "\n" + 
 	DocumentContent["Navigate"] + "\n" + 
 	DocumentContent["Poker"] + "\n" + 
+	DocumentContent["Roblox"] + "\n" + 
 	DocumentContent["Triangle"] + """
 			</div>
 		</div>

@@ -153,7 +153,8 @@ a {
 			display: block;
 			margin: 0px;
 			outline: 0px;
-			padding: 8px;
+			padding-bottom: 8px;
+			padding-top: 8px;
 			position: sticky;
 			top: 0px;
 			width: 100%;
