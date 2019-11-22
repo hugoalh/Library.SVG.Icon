@@ -54,7 +54,7 @@ This method is suitable when:
 - you do not want the update(s) may make a mess,
 - you need to control which version of release you want,
 - your project can run offline (exclude progressive web application due they can cache the icons), or
-- your project is required to run offline(no internet connection),
+- your project is required to run offline(no internet connection).
 
 #### Step
 
