@@ -4,8 +4,8 @@
 #     hugoalh
 #   Language:
 #     Git-Configuration
-# 	Last Update:
-#     2019-10-17
+#   Last Update:
+#     2019-11-26
 # ==============================================================================
 # ::::::::::::::::::::::::::::::::::::::
 # General
@@ -69,8 +69,8 @@ ehthumbs_vista.db
 *.sym
 
 # CVS
-/CVS/*
-**/CVS/*
+/CVS/
+**/CVS/
 # .cvsignore
 # */.cvsignore
 
@@ -167,7 +167,6 @@ abstract.log*
 
 # Visual Studio Code
 .vscode/
-.vscode/*
 
 # WebMethods
 **/IntegrationServer/logs/

@@ -1,4 +1,4 @@
-# <div align="center">SVG圖示資源庫</div>
+# <div align="center"><img src="../SVG_Alt.svg" width=48 height=48 /><br />SVG圖示資源庫</div>
 
 🌐｜<a href="./README.md">English</a>　<a href="./README.zh-hant.md">中文</a>
 
@@ -32,18 +32,20 @@
 
 此方法適用於：
 
-- you want the icons are up to date, 
-- your project is required to run online(internet connection),
-- you want to test, or
-- you want to have a minified project.
+- 你想使圖示保持在最新版本，
+- 你的專案需要在線運作（互聯網連接），
+- 你只想測試，或者
+- 你想要一個迷你的專案。
+
+`*.html`
 
 ```html
-<!-- HTML --->
+<!-- 使用<img>，但是不能夠控制色彩。 --->
+<img src="https://hugoalh.github.io/Library.SVG.Icon/{{圖示名稱}}.svg" />
 
-<img src="https://hugoalh.github.io/Library.SVG.Icon/{{IconName}}.svg" />
-
+<!-- 使用<svg>，能夠控制色彩。 --->
 <svg viewBox="0 0 24 24">
-  <use xlink:href="https://hugoalh.github.io/Library.SVG.Icon/{{IconName}}.svg"></use>
+  <use xlink:href="https://hugoalh.github.io/Library.SVG.Icon/{{圖示名稱}}.svg"></use>
 </svg>
 ```
 
@@ -59,21 +61,23 @@
 #### 步驟
 
 <ol>
-  <li>Open/Download <a href="https://git-scm.com/">Git</a>, then use Terminal/Bush to locate your project directory.</li>
-  <li>Type in <code>git submodule add git+https://github.com/hugoalh/Library.SVG.Icon.git {{NewFolderName}}</code>, and it will clone this repository</li>
-  <li>For updating, type in <code>git submodule update --remote --merge</code></li>
+  <li>Require <a href="https://git-scm.com/">Git</a>, then use Terminal/Bush to locate your project directory.</li>
+  <li>Type in <code>git submodule add git+https://github.com/hugoalh/Library.SVG.Icon.git {{NewFolderName}}</code>, and it will clone this repository.</li>
+  <li>For updating, type in <code>git submodule update --remote --merge</code>.</li>
 </ol>
 
 #### 用法
 
 There has many ways to use, here is just an example.
 
+`*.html`
+
 ```html
-<!-- HTML --->
+<!-- 使用<img>，但是不能夠控制色彩。 --->
+<img src="{{NewFolderName}}/{{圖示名稱}}.svg" />
 
-<img src="{{NewFolderName}}/{{IconName}}.svg" />
-
+<!-- 使用<svg>，能夠控制色彩。 --->
 <svg viewBox="0 0 24 24">
-  <use xlink:href="{{NewFolderName}}/{{IconName}}.svg"></use>
+  <use xlink:href="{{NewFolderName}}/{{圖示名稱}}.svg"></use>
 </svg>
 ```

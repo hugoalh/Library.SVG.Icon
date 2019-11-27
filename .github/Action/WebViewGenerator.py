@@ -114,7 +114,7 @@ DocumentContentPrepareWrite = (
 		<title>SVG Icon Library</title>
 	</head>
 	<body>
-		<div id="heroheader" class="framework">
+		<nav id="heroheader" class="framework">
 			<div>
 				<span class="logo"><img src="./SVG_Alt.svg" /></span>
 				<div>
@@ -122,7 +122,7 @@ DocumentContentPrepareWrite = (
 					<span class="description"><a href="https://github.com/hugoalh">hugoalh</a>/<a href="https://github.com/hugoalh/Library.SVG.Icon">Library.SVG.Icon</a></span>
 				</div>
 			</div>
-		</div>
+		</nav>
 		<div id="page" class="framework">
 			<div class="information">
 				<p><strong>Last Update: </strong>""" + CurrentUTCTime + """ UTC</p>

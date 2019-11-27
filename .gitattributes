@@ -5,7 +5,7 @@
 #   Language:
 #     Git-Configuration
 #   Last Update:
-#     2019-10-17
+#     2019-11-26
 # ==============================================================================
 # ::::::::::::::::::::::::::::::::::::::
 # End Of Line (EOL)
@@ -536,6 +536,7 @@ schema.rb diff=ruby
 *.jade text
 *.jpx binary
 *.js text
+*.jsm text
 *.json text
 *.jsp text
 *.jspf text
@@ -563,6 +564,7 @@ schema.rb diff=ruby
 *.mdwn text
 *.mex* binary
 *.midi binary
+*.mjs text
 *.mkd text
 *.mkdn text
 *.mlappinstall binary
