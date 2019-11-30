@@ -58,10 +58,10 @@ ValidPattern = ValidFileContent.replace("\n</svg>\n", "")
 ValidFile.close()
 InvalidSVGFileList = {}
 for File in SVGFileList:
+	InvalidSVGFileList[File] = []
 	ThatFile = open(os.path.join(PathData["Repository"], File), "rt")
 	ThatFileContent = ThatFile.read()
 	ThatFile.close()
-	InvalidSVGFileList[File] = []
 	if (ThatFileContent.find(AdobeIllustratorXML) == 0):
 		ThatFileContent = ThatFileContent.replace(AdobeIllustratorXML, "")
 		ReopenThatFile = open(os.path.join(PathData["Repository"], File), "wt", 1, "utf_8", "replace")
@@ -73,6 +73,8 @@ for File in SVGFileList:
 		InvalidSVGFileList[File].append("Invalid Pattern!")
 	if (ThatFileContent.find("<g>") != -1):
 		InvalidSVGFileList[File].append("Contain Group!")
+	if (ThatFileContent.find("<def>") != -1):
+		InvalidSVGFileList[File].append("Contain Function!")
 	if (ThatFileContent.find("fill=\"#040000\"") != -1):
 		InvalidSVGFileList[File].append("Adobe Illustrator CMYK!")
 	if (len(InvalidSVGFileList[File]) == 0):
