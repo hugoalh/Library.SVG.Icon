@@ -1,15 +1,15 @@
-# ==============================================================================
+# ==================
 # SVG Icon Library - Action - Web View Generator
 #   Author & Contributor:
 #     hugoalh
 #   Language:
 #     Python 3.8
-# ==============================================================================
+# ==================
 import os, pathlib, sys, time
 
-# ::::::::::::::::::::::::::::::::::::::
+# ::::::::
 # Data
-# ::::::::::::::::::::::::::::::::::::::
+# ::::::::
 CurrentUTCTime = time.strftime("%Y-%m-%d %H:%M", time.gmtime())
 PathData = {
 	"Repository": str(pathlib.Path(os.path.abspath(__file__)).parent.parent.parent)
@@ -24,9 +24,9 @@ IgnoreList = {
 	]
 }
 
-# ::::::::::::::::::::::::::::::::::::::
+# ::::::::
 # Program - List Data & Get Data
-# ::::::::::::::::::::::::::::::::::::::
+# ::::::::
 print("Current UTC Time:", CurrentUTCTime)
 print("Path - Repository:", PathData["Repository"])
 print("Path - Document:", PathData["Document"])
@@ -51,9 +51,9 @@ for Root, Directories, FilesName in os.walk(PathData["Repository"]):
 print("SVG File:", SVGFileList)
 SVGFileCount = str(len(SVGFileList))
 
-# ::::::::::::::::::::::::::::::::::::::
+# ::::::::
 # Program - Generate Document Content
-# ::::::::::::::::::::::::::::::::::::::
+# ::::::::
 DocumentContent = {}
 def DocumentContentManualGenerator(InternalCatalog, HeaderString, FindQuery, FindResult):
 	SVGFileList_Proceeded = []
@@ -84,9 +84,9 @@ DocumentContentManualGenerator("Triangle", "<h2>Triangle</h2>", "Triangle\\", 0)
 if (len(SVGFileList) > 0):
 	raise ValueError("SVG Files are not fully handled by generator, please check the pattern!")
 
-# ::::::::::::::::::::::::::::::::::::::
+# ::::::::
 # Program - Write Document
-# ::::::::::::::::::::::::::::::::::::::
+# ::::::::
 DocumentContentPrepareWrite = (
 """<!DOCTYPE html>
 <html>

@@ -1,20 +1,20 @@
-# ==============================================================================
+# ==================
 # hugoalh's Repository Resource - Git Attribute
 #   Author:
 #     hugoalh
 #   Language:
 #     Git-Configuration
 #   Last Update:
-#     2019-11-26
-# ==============================================================================
-# ::::::::::::::::::::::::::::::::::::::
+#     2019-12-07
+# ==================
+# ::::::::
 # End Of Line (EOL)
-# ::::::::::::::::::::::::::::::::::::::
+# ::::::::
 * text=auto
 
-# ::::::::::::::::::::::::::::::::::::::
+# ::::::::
 # General
-# ::::::::::::::::::::::::::::::::::::::
+# ::::::::
 # Audio
 *.8svx binary
 *.aa binary
@@ -335,9 +335,9 @@
 # Initialization File
 *.ini text
 
-# ::::::::::::::::::::::::::::::::::::::
+# ::::::::
 # Catalog
-# ::::::::::::::::::::::::::::::::::::::
+# ::::::::
 # Git
 *.gitattributes text
 *.gitignore text
@@ -473,9 +473,9 @@ schema.rb diff=ruby
 *.jsx text
 *.tsx text
 
-# ::::::::::::::::::::::::::::::::::::::
+# ::::::::
 # Other
-# ::::::::::::::::::::::::::::::::::::::
+# ::::::::
 *.R text
 *.Rd text
 *.Rdata text
@@ -657,9 +657,9 @@ schema.rb diff=ruby
 .htaccess text
 .recommenders binary
 
-# ::::::::::::::::::::::::::::::::::::::
+# ::::::::
 # Variable (May Need Modify)
-# ::::::::::::::::::::::::::::::::::::::
+# ::::::::
 # text for Unity YAML, binary for Image
 *.anim text eol=lf
 # *.anim binary
