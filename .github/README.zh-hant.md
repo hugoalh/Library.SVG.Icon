@@ -68,7 +68,7 @@
 
 #### 用法
 
-There has many ways to use, here is just an example.
+*There has many ways to use, here is just an example.*
 
 `*.html`
 

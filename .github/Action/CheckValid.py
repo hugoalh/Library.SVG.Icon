@@ -62,8 +62,9 @@ for File in SVGFileList:
 	ThatFile = open(os.path.join(PathData["Repository"], File), "rt")
 	ThatFileContent = ThatFile.read()
 	ThatFile.close()
-	if (ThatFileContent.find(AdobeIllustratorXML) == 0):
+	if (ThatFileContent.find(AdobeIllustratorXML) == 0 or ThatFileContent.find("\n\t") != -1):
 		ThatFileContent = ThatFileContent.replace(AdobeIllustratorXML, "")
+		ThatFileContent = ThatFileContent.replace("\n\t", "")
 		ReopenThatFile = open(os.path.join(PathData["Repository"], File), "wt", 1, "utf_8", "replace")
 		ReopenThatFile.write(ThatFileContent)
 		ReopenThatFile.close()

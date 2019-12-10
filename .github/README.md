@@ -68,7 +68,7 @@ This method is suitable when:
 
 #### Usage
 
-There has many ways to use, here is just an example.
+*There has many ways to use, here is just an example.*
 
 `*.html`
 
