@@ -1,0 +1,27 @@
+{
+	"name": "modernicon",
+	"author": "hugoalh",
+	"description": "Modern Icon",
+	"version": "0.0.1",
+	"keywords": [
+		"svg",
+		"icon",
+		"library",
+		"modern"
+	],
+	"license": "SEE LICENSE IN LICENSE.md",
+	"main": "",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/hugoalh/Library.SVG.Icon.git"
+	},
+	"bugs": {
+		"url": "https://github.com/hugoalh/Library.SVG.Icon/issues"
+	},
+	"homepage": "https://github.com/hugoalh/Library.SVG.Icon#readme",
+	"devDependencies": {},
+	"dependencies": {},
+	"scripts": {
+		"action-tool": "node ./.github/Tool/Toolbox.js"
+	}
+}
