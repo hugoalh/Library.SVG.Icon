@@ -28,6 +28,8 @@ try {
 };
 const Configuration = JSON.parse(ConfigurationFile);
 Configuration["Ignore"]["File"].push(Configuration["Template"]["SVG"]);
+Configuration["Minify"]["AdobeIllustratorXML"] = Configuration["Minify"]["AdobeIllustratorXML"].replace(new RegExp("\r\n", "gu"), "\n").replace(new RegExp("\n", "gu"), "\r\n");
+Configuration["Minify"]["AdobeIllustratorXML_RegExp"] = new RegExp(Configuration["Minify"]["AdobeIllustratorXML"].replace(/[-\/\\^$*+?.()|[\]{}]/g, "\\$&"));
 function DetermineIsIgnoreFolder(Path) {
 	Configuration["Ignore"]["Folder"].forEach((value, index) => {
 		if (Path.search(value) == 0) {
@@ -116,8 +118,8 @@ function CheckValid() {
 					flag: "r"
 				});
 				InvalidSVGFileList[value] = [];
-				if (FileContent.search(Configuration["Minify"]["AdobeIllustratorXML_NodeJS"]) == 0 || FileContent.search("\r\n\t") != -1) {
-					FileContent = FileContent.replace(Configuration["Minify"]["AdobeIllustratorXML_NodeJS"], "");
+				if (FileContent.search(Configuration["Minify"]["AdobeIllustratorXML_RegExp"]) == 0 || FileContent.search("\r\n\t") != -1) {
+					FileContent = FileContent.replace(Configuration["Minify"]["AdobeIllustratorXML_RegExp"], "");
 					FileContent = FileContent.replace(new RegExp("\r\n\t", "g"), "");
 					NodeJS.FileSystem.writeFileSync(FileFullPath, FileContent, {
 						encoding: "utf8",
@@ -275,7 +277,7 @@ ${Content}</div>`;
 		NodeJS.Console.error("SVG Files are not fully handled by generator, please check the pattern!");
 		return;
 	};
-	const FullDocumentContent = `<!DOCTYPE html>
+	let FullDocumentContent = `<!DOCTYPE html>
 <html>
 	<head>
 		<!-- Character Encode --->
@@ -343,6 +345,7 @@ ${DocumentContent["Triangle"]}
 	</body>
 </html>
 `;
+FullDocumentContent = FullDocumentContent.replace(new RegExp("\r\n", "gu"), "\n").replace(new RegExp("\n", "gu"), "\r\n");
 	try {
 		NodeJS.FileSystem.writeFileSync(
 			NodeJS.Path.join(RepositoryDirectory, Configuration["WebView"]),
@@ -399,6 +402,7 @@ CSC.on("line", (line) => {
 			NodeJS.Console.log(`Template - SVG: ${Configuration["Template"]["SVG"]}`);
 			NodeJS.Console.log(`Ignore Folder: ${Configuration["Ignore"]["Folder"]}`);
 			NodeJS.Console.log(`Ignore File: ${Configuration["Ignore"]["File"]}`);
+			NodeJS.Console.log(`XML: ${Configuration["Minify"]["AdobeIllustratorXML"]}`);
 			break;
 		case "list":
 			NodeJS.Console.log(`SVG File List: ${Configuration["FileList"]}`);
