@@ -1,10 +1,10 @@
-/*==============================================================================
+/*==================
 SVG Icon Library - Cascading Style Sheet
 	Author & Contributor:
 		hugoalh
 	Language:
 		CSS 3
-==============================================================================*/
+==================*/
 /* Prevent issue in non-unicode computer */
 @charset "UTF-8";
 
@@ -215,6 +215,11 @@ a {
 }
 #heroheader a:active {
 	color: #0000ffff;
+}
+
+
+ul {
+	padding-inline-start: 1.4em;
 }
 
 /* Responsive */
