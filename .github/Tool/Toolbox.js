@@ -261,6 +261,7 @@ ${Content}</div>`;
 		["Chess", "<h2>Chess</h2>", "Chess\\\\", 0],
 		["Clock", "<h2>Clock</h2>", "Clock\\\\", 0],
 		["Dice", "<h2>Dice</h2>", "Dice\\\\", 0],
+		["Git", "<h2>Git</h2>", "Git\\\\", 0],
 		["Input_Chinese", "<h3>Chinese</h3>", "Input\\\\Chinese\\\\", 0],
 		["Input_SimplifiedChinese", "<h3>Simplified Chinese</h3>", "Input\\\\SimplifiedChinese\\\\", 0],
 		["Input", "<h2>Input</h2>", "Input\\\\", 0],
@@ -332,6 +333,7 @@ ${DocumentContent["Arrow"]}
 ${DocumentContent["Chess"]}
 ${DocumentContent["Clock"]}
 ${DocumentContent["Dice"]}
+${DocumentContent["Git"]}
 ${DocumentContent["Input"]}
 ${DocumentContent["Input_Chinese"]}
 ${DocumentContent["Input_SimplifiedChinese"]}
