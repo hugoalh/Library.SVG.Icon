@@ -256,12 +256,14 @@ ${Content}</div>`;
 	};
 	[
 		["General", "<h2>General</h2>", "\\\\", -1],
+		["AdobeProduct", "<h2>Adobe Product</h2>", "AdobeProduct\\\\", 0],
 		["Align", "<h2>Align</h2>", "Align\\\\", 0],
 		["Arrow", "<h2>Arrow</h2>", "Arrow\\\\", 0],
 		["Chess", "<h2>Chess</h2>", "Chess\\\\", 0],
 		["Clock", "<h2>Clock</h2>", "Clock\\\\", 0],
 		["Dice", "<h2>Dice</h2>", "Dice\\\\", 0],
 		["Git", "<h2>Git</h2>", "Git\\\\", 0],
+		["GoogleProduct", "<h2>Google Product</h2>", "GoogleProduct\\\\", 0],
 		["Input_Chinese", "<h3>Chinese</h3>", "Input\\\\Chinese\\\\", 0],
 		["Input_SimplifiedChinese", "<h3>Simplified Chinese</h3>", "Input\\\\SimplifiedChinese\\\\", 0],
 		["Input", "<h2>Input</h2>", "Input\\\\", 0],
@@ -315,7 +317,7 @@ ${Content}</div>`;
 		</nav>
 		<div id="page" class="framework">
 			<div class="information">
-				<p><strong>Last Update: </strong>${CurrentUTCTime} UTC</p>
+				<p><strong>Last Updated: </strong>${CurrentUTCTime} UTC</p>
 				<p><strong>Total: </strong>${TotalFileCount}</p>
 				<p><strong>License: </strong><a href="./LICENSE.md">CC0 1.0</a></p>
 				<p>
@@ -328,12 +330,14 @@ ${Content}</div>`;
 			</div>
 			<div class="content">
 ${DocumentContent["General"]}
+${DocumentContent["AdobeProduct"]}
 ${DocumentContent["Align"]}
 ${DocumentContent["Arrow"]}
 ${DocumentContent["Chess"]}
 ${DocumentContent["Clock"]}
 ${DocumentContent["Dice"]}
 ${DocumentContent["Git"]}
+${DocumentContent["GoogleProduct"]}
 ${DocumentContent["Input"]}
 ${DocumentContent["Input_Chinese"]}
 ${DocumentContent["Input_SimplifiedChinese"]}
