@@ -256,14 +256,14 @@ ${Content}</div>`;
 	};
 	[
 		["General", "<h2>General</h2>", "\\\\", -1],
-		["AdobeProduct", "<h2>Adobe Product</h2>", "AdobeProduct\\\\", 0],
+		["Adobe", "<h2>Adobe</h2>", "Adobe\\\\", 0],
 		["Align", "<h2>Align</h2>", "Align\\\\", 0],
 		["Arrow", "<h2>Arrow</h2>", "Arrow\\\\", 0],
 		["Chess", "<h2>Chess</h2>", "Chess\\\\", 0],
 		["Clock", "<h2>Clock</h2>", "Clock\\\\", 0],
 		["Dice", "<h2>Dice</h2>", "Dice\\\\", 0],
 		["Git", "<h2>Git</h2>", "Git\\\\", 0],
-		["GoogleProduct", "<h2>Google Product</h2>", "GoogleProduct\\\\", 0],
+		["Google", "<h2>Google</h2>", "Google\\\\", 0],
 		["Input_Chinese", "<h3>Chinese</h3>", "Input\\\\Chinese\\\\", 0],
 		["Input_SimplifiedChinese", "<h3>Simplified Chinese</h3>", "Input\\\\SimplifiedChinese\\\\", 0],
 		["Input", "<h2>Input</h2>", "Input\\\\", 0],
@@ -330,14 +330,14 @@ ${Content}</div>`;
 			</div>
 			<div class="content">
 ${DocumentContent["General"]}
-${DocumentContent["AdobeProduct"]}
+${DocumentContent["Adobe"]}
 ${DocumentContent["Align"]}
 ${DocumentContent["Arrow"]}
 ${DocumentContent["Chess"]}
 ${DocumentContent["Clock"]}
 ${DocumentContent["Dice"]}
 ${DocumentContent["Git"]}
-${DocumentContent["GoogleProduct"]}
+${DocumentContent["Google"]}
 ${DocumentContent["Input"]}
 ${DocumentContent["Input_Chinese"]}
 ${DocumentContent["Input_SimplifiedChinese"]}
