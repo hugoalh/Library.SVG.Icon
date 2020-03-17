@@ -267,6 +267,7 @@ ${Content}</div>`;
 		["Input_Chinese", "<h3>Chinese</h3>", "Input\\\\Chinese\\\\", 0],
 		["Input_SimplifiedChinese", "<h3>Simplified Chinese</h3>", "Input\\\\SimplifiedChinese\\\\", 0],
 		["Input", "<h2>Input</h2>", "Input\\\\", 0],
+		["Microsoft", "<h2>Microsoft</h2>", "Microsoft\\\\", 0],
 		["Minecraft", "<h2>Minecraft</h2>", "Minecraft\\\\", 0],
 		["Navigate", "<h2>Navigate</h2>", "Navigate\\\\", 0],
 		["Poker", "<h2>Poker</h2>", "Poker\\\\", 0],
@@ -341,6 +342,7 @@ ${DocumentContent["Google"]}
 ${DocumentContent["Input"]}
 ${DocumentContent["Input_Chinese"]}
 ${DocumentContent["Input_SimplifiedChinese"]}
+${DocumentContent["Microsoft"]}
 ${DocumentContent["Minecraft"]}
 ${DocumentContent["Navigate"]}
 ${DocumentContent["Poker"]}
