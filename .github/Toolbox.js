@@ -12,11 +12,11 @@ const NodeJS = {
 	OperatingSystem: require("os"),
 	ReadLine: require("readline")
 };
-const RepositoryDirectory = NodeJS.Path.resolve(__dirname, "../../");
+const RepositoryDirectory = NodeJS.Path.resolve(__dirname, "../");
 var ConfigurationFile;
 try {
 	ConfigurationFile = NodeJS.FileSystem.readFileSync(
-		NodeJS.Path.join(RepositoryDirectory, "/.github/Tool/Toolbox_Configuration.json"),
+		NodeJS.Path.join(RepositoryDirectory, "/.github/Toolbox_Configuration.json"),
 		{
 			encoding: "utf8",
 			flag: "r"
