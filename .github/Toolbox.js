@@ -8,8 +8,8 @@ SVG Icon Library - Toolbox
 const NodeJS = {
 	Console: require("console"),
 	FileSystem: require("fs"),
-	Path: require("path"),
 	OperatingSystem: require("os"),
+	Path: require("path"),
 	ReadLine: require("readline")
 };
 const RepositoryDirectory = NodeJS.Path.resolve(__dirname, "../");
