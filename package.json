@@ -22,6 +22,6 @@
 	"devDependencies": {},
 	"dependencies": {},
 	"scripts": {
-		"toolbox": "node ./.github/Toolbox.js"
+		"toolbox": "node .github/Toolbox.js"
 	}
 }
