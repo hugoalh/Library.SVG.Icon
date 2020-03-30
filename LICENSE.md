@@ -1,51 +1,25 @@
-# CC0 1.0 Universal
-
 🌐｜[English](./LICENSE.md)　[中文](./LICENSE.zh-hant.md)
 
-<div align="right">
-	<strong>Version: </strong>1.0<br />
-	<strong>Last Update: </strong>2019-11-11 03:10 UTC<br />
-	<strong>Source: </strong><a href="https://creativecommons.org/publicdomain/zero/1.0/legalcode">Creative Commons</a>
-</div>
+# CC0 1.0 Universal
+
+**Version:**
+1.0
+
+**Source:**
+[Creative Commons](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
 
 ## Quick Read
 
 This is a short and simple table that mostly concluded this license about the permission(s), condition(s), and limitation(s). The section of "Full Content" shall prevail.
 
-<table>
-	<tr>
-		<td align="center"><strong>Commercial use</strong></td>
-		<td align="center">✔</td>
-	</tr>
-	<tr>
-		<td align="center"><strong>Distribution</strong></td>
-		<td align="center">✔</td>
-	</tr>
-	<tr>
-		<td align="center"><strong>Modification</strong></td>
-		<td align="center">✔</td>
-	</tr>
-	<tr>
-		<td align="center"><strong>Private use</strong></td>
-		<td align="center">✔</td>
-	</tr>
-	<tr>
-		<td align="center"><strong>Liability</strong></td>
-		<td align="center">❌</td>
-	</tr>
-	<tr>
-		<td align="center"><strong>Trademark use</strong></td>
-		<td align="center">❌</td>
-	</tr>
-	<tr>
-		<td align="center"><strong>Patent use</strong></td>
-		<td align="center">❌</td>
-	</tr>
-	<tr>
-		<td align="center"><strong>Warranty</strong></td>
-		<td align="center">❌</td>
-	</tr>
-</table>
+- ✔ Commercial Use
+- ✔ Distribution
+- ✔ Modification
+- ✔ Private Use
+- ❌ Liability
+- ❌ Patent Use
+- ❌ Trademark Use
+- ❌ Warranty
 
 ## Full Content
 

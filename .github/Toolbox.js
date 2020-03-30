@@ -320,7 +320,7 @@ ${Content}</div>`;
 			<div class="information">
 				<p><strong>Last Updated: </strong>${CurrentUTCTime} UTC</p>
 				<p><strong>Total: </strong>${TotalFileCount}</p>
-				<p><strong>License: </strong><a href="./LICENSE.md">CC0 1.0</a></p>
+				<p><strong>License: </strong><a href="https://github.com/hugoalh/Library.SVG.Icon/blob/master/LICENSE.md">CC0 1.0</a></p>
 				<p>
 					<strong>Note:</strong><br />
 					<ul>

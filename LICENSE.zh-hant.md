@@ -1,51 +1,25 @@
-# CC0 1.0 通用
-
 🌐｜[English](./LICENSE.md)　[中文](./LICENSE.zh-hant.md)
 
-<div align="right">
-	<strong>版本：</strong>1.0<br />
-	<strong>最後更新：</strong>2019-11-11 03:10 UTC<br />
-	<strong>來源：</strong><a href="https://creativecommons.org/publicdomain/zero/1.0/legalcode.zh-Hant">Creative Commons</a>
-</div>
+# CC0 1.0 通用
+
+**版本：**
+1.0
+
+**來源：**
+[Creative Commons](https://creativecommons.org/publicdomain/zero/1.0/legalcode.zh-Hant)
 
 ## 快速閱讀
 
 這是一個簡短的表，主要總結了本許可的許可、條件和限制。以「全文」部分為準。
 
-<table>
-	<tr>
-		<td align="center"><strong>商業用途</strong></td>
-		<td align="center">✔</td>
-	</tr>
-	<tr>
-		<td align="center"><strong>分發</strong></td>
-		<td align="center">✔</td>
-	</tr>
-	<tr>
-		<td align="center"><strong>修改</strong></td>
-		<td align="center">✔</td>
-	</tr>
-	<tr>
-		<td align="center"><strong>私人使用</strong></td>
-		<td align="center">✔</td>
-	</tr>
-	<tr>
-		<td align="center"><strong>責任</strong></td>
-		<td align="center">❌</td>
-	</tr>
-	<tr>
-		<td align="center"><strong>商標使用</strong></td>
-		<td align="center">❌</td>
-	</tr>
-	<tr>
-		<td align="center"><strong>專利使用</strong></td>
-		<td align="center">❌</td>
-	</tr>
-	<tr>
-		<td align="center"><strong>保證</strong></td>
-		<td align="center">❌</td>
-	</tr>
-</table>
+- ✔ 分發
+- ✔ 私人使用
+- ✔ 修改
+- ✔ 商業用途
+- ❌ 保證
+- ❌ 商標使用
+- ❌ 專利使用
+- ❌ 責任
 
 ## 全文
 
