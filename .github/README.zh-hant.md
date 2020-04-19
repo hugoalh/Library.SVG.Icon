@@ -1,25 +1,42 @@
+🌐｜[English](./README.md)　[中文](./README.zh-hant.md)
+
 # <div align="center"><img src="../SVG_Alt.svg" width=48 height=48 /><br />SVG圖示資源庫</div>
 
-🌐｜<a href="./README.md">English</a>　<a href="./README.zh-hant.md">中文</a>
+<div align="center">
+  <code>hugoalh/Library.SVG.Icon</code><br />
+  <img src="https://img.shields.io/github/languages/count/hugoalh/Library.SVG.Icon?style=flat-square&logo=github" />
+  <img src="https://img.shields.io/github/languages/top/hugoalh/Library.SVG.Icon?style=flat-square&logo=github" />
+  <img src="https://img.shields.io/github/repo-size/hugoalh/Library.SVG.Icon?style=flat-square&logo=github" />
+  <img src="https://img.shields.io/github/watchers/hugoalh/Library.SVG.Icon?style=flat-square&logo=github" />
+  <img src="https://img.shields.io/github/stars/hugoalh/Library.SVG.Icon?style=flat-square&logo=github" />
+  <img src="https://img.shields.io/github/forks/hugoalh/Library.SVG.Icon?style=flat-square&logo=github" />
+</div>
 
 <table>
   <tr>
-    <td align="center"><strong>索引</strong></td>
-    <td><a href="https://github.com/hugoalh/Library.SVG.Icon">hugoalh/Library.SVG</a></td>
-  </tr>
-  <tr>
     <td align="center">
-      <strong>作者、貢獻者</strong><br />
-      <img src="https://img.shields.io/github/contributors/hugoalh/Library.SVG.Icon?color=000000&label=%20" />
+      <b>作者、貢獻者</b><br />
+      <img src="https://img.shields.io/github/contributors/hugoalh/Library.SVG.Icon?style=flat-square&color=000000&label=%20" />
     </td>
     <td><a href="https://github.com/hugoalh">hugoalh</a></td>
   </tr>
   <tr>
-    <td align="center"><strong>授權</strong></td>
+    <td align="center"><b>授權</b></td>
+    <td><a href="../LICENSE.zh-hant.md">CC0 1.0</a></td>
+  </tr>
+  <tr>
+    <td align="center"><b>問題</b></td>
     <td>
-      <a href="../LICENSE.zh-hant.md">CC0 1.0</a>
+      <b>開啟：</b><img src="https://img.shields.io/github/issues-raw/hugoalh/Library.SVG.Icon?style=flat-square&color=000000&label=%20" />；<b>已關閉：</b><img src="https://img.shields.io/github/issues-closed-raw/hugoalh/Library.SVG.Icon?style=flat-square&color=000000&label=%20" />
     </td>
   </tr>
+  <tr>
+    <td align="center"><b>合併請求</b></td>
+    <td>
+      <b>開啟：</b><img src="https://img.shields.io/github/issues-pr-raw/hugoalh/Library.SVG.Icon?style=flat-square&color=000000&label=%20" />；<b>已關閉：</b><img src="https://img.shields.io/github/issues-pr-closed-raw/hugoalh/Library.SVG.Icon?style=flat-square&color=000000&label=%20" />
+    </td>
+  </tr>
+</table>
 </table>
 
 ## 📜 說明
@@ -81,3 +98,7 @@
   <use xlink:href="{{NewFolderName}}/{{圖示名稱}}.svg"></use>
 </svg>
 ```
+
+## 🐛 問題
+
+在這個專案中發現任何問題？通過[GitHub](https://github.com/hugoalh/Library.SVG.Icon/issues)提交該問題。

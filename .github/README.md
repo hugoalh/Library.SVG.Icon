@@ -1,23 +1,39 @@
+🌐｜[English](./README.md)　[中文](./README.zh-hant.md)
+
 # <div align="center"><img src="../SVG_Alt.svg" width=48 height=48 /><br />SVG Icon Library</div>
 
-🌐｜<a href="./README.md">English</a>　<a href="./README.zh-hant.md">中文</a>
+<div align="center">
+  <code>hugoalh/Library.SVG.Icon</code><br />
+  <img src="https://img.shields.io/github/languages/count/hugoalh/Library.SVG.Icon?style=flat-square&logo=github" />
+  <img src="https://img.shields.io/github/languages/top/hugoalh/Library.SVG.Icon?style=flat-square&logo=github" />
+  <img src="https://img.shields.io/github/repo-size/hugoalh/Library.SVG.Icon?style=flat-square&logo=github" />
+  <img src="https://img.shields.io/github/watchers/hugoalh/Library.SVG.Icon?style=flat-square&logo=github" />
+  <img src="https://img.shields.io/github/stars/hugoalh/Library.SVG.Icon?style=flat-square&logo=github" />
+  <img src="https://img.shields.io/github/forks/hugoalh/Library.SVG.Icon?style=flat-square&logo=github" />
+</div>
 
 <table>
   <tr>
-    <td align="center"><strong>Index</strong></td>
-    <td><a href="https://github.com/hugoalh/Library.SVG.Icon">hugoalh/Library.SVG.Icon</a></td>
-  </tr>
-  <tr>
     <td align="center">
-      <strong>Author & Contributor</strong><br />
-      <img src="https://img.shields.io/github/contributors/hugoalh/Library.SVG.Icon?color=000000&label=%20" />
+      <b>Author & Contributor</b><br />
+      <img src="https://img.shields.io/github/contributors/hugoalh/Library.SVG.Icon?style=flat-square&color=000000&label=%20" />
     </td>
     <td><a href="https://github.com/hugoalh">hugoalh</a></td>
   </tr>
   <tr>
-    <td align="center"><strong>License</strong></td>
+    <td align="center"><b>License</b></td>
+    <td><a href="../LICENSE.md">CC0 1.0</a></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Issue</b></td>
     <td>
-      <a href="../LICENSE.md">CC0 1.0</a>
+      <b>Open: </b><img src="https://img.shields.io/github/issues-raw/hugoalh/Library.SVG.Icon?style=flat-square&color=000000&label=%20" />; <b>Closed: </b><img src="https://img.shields.io/github/issues-closed-raw/hugoalh/Library.SVG.Icon?style=flat-square&color=000000&label=%20" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Pull Request</b></td>
+    <td>
+      <b>Open: </b><img src="https://img.shields.io/github/issues-pr-raw/hugoalh/Library.SVG.Icon?style=flat-square&color=000000&label=%20" />; <b>Closed: </b><img src="https://img.shields.io/github/issues-pr-closed-raw/hugoalh/Library.SVG.Icon?style=flat-square&color=000000&label=%20" />
     </td>
   </tr>
 </table>
@@ -81,3 +97,7 @@ This method is suitable when:
   <use xlink:href="{{NewFolderName}}/{{IconName}}.svg"></use>
 </svg>
 ```
+
+## 🐛 Issue
+
+Found any issue in this project? Submit the issue via [GitHub](https://github.com/hugoalh/Library.SVG.Icon/issues).
