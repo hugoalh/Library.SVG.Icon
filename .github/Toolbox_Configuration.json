@@ -1,22 +1,22 @@
 {
-	"FileExtension": {
-		"SVG": ".svg"
-	},
-	"Template": {
-		"SVG": "_Template.svg"
-	},
+	"Root": "../",
+	"Template": "_Template.svg",
 	"Ignore": {
-		"Folder": [
+		"Directory": [
 			".git",
 			".github",
 			".vscode"
 		],
 		"File": [
+			"_Template.svg",
 			"_Template_Disable.svg"
 		]
 	},
-	"Minify": {
-		"AdobeIllustratorXML": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n"
-	},
-	"WebView": "index.html"
+	"Minify": [
+		"<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\" \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n",
+		"\n\t"
+	],
+	"Export": {
+		"WebView": "index.html"
+	}
 }
